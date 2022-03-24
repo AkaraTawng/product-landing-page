@@ -1,0 +1,2129 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap'); /*font-family: 'Viaoda Libre', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Viaoda+Libre&display=swap') /* font-family: 'Amatic SC', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap'); /*font-family: 'Nothing You Could Do', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap'); /*font-family: 'Homemade Apple', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap'); /*font-family: 'Raleway', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); /*font-family: 'Montserrat', sans-serif;*/
+
+
+
+
+body{
+    margin-top: 0;
+}
+.wrapper{
+    width: 100%;
+    max-width: 99%;
+    margin: 0 auto;
+    margin-bottom: 8.5%;
+}
+
+/* navigation menu */
+nav{
+    display: flex;
+    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding:1% 0;
+    position: fixed;
+    top:0px;
+    width: 98.7%;
+    margin-top: -1%;
+    margin-left: -0.5%;
+    padding-top: 2%;
+
+}
+
+nav #header-img{
+    border-radius: 50%;
+    height: 5rem;
+    margin-left: 7%;
+}
+
+nav ul /*Flex Container*/{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-weight: 600;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 5;
+
+}
+
+nav .nav-link a{
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+nav .nav-link a:hover{
+    color: rgb(252, 193, 32);
+
+}
+
+nav .social {
+    justify-content: space-evenly;
+}
+
+
+nav .social img:hover{
+    cursor: pointer;
+    background-color:rgba(194, 249, 214, 0.6);
+    border-radius: 50%;
+}
+
+nav .social img:active{
+    box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
+    
+}
+/* End navigation menu */
+
+/* Title Section */
+.title-wrapper #title-section{
+    background-color: rgb(131, 197, 190, 0.5);
+    width: 100%;
+    height: 18rem;
+    margin-top: 9.5%;
+    
+    
+    
+}
+
+.title-wrapper h1{
+    text-align: center;
+    margin-top: 0.7%;
+    padding-top: 3%;
+    
+    font-size: 3rem;
+    font-family: 'Homemade Apple', cursive;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    
+     
+
+    
+}
+
+.title-wrapper p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -1%;
+    padding: 1% 1%;
+    
+    
+}
+/* End Title Section */
+
+/* Product Section */
+
+.product-wrapper{
+    background-color: rgba(242, 204, 143, 1);
+    height: 37rem;
+   
+}
+
+#product-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+#product-section img{
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 10rem;
+    margin-top: -11rem;
+    border: white 1.5px solid;
+}
+
+#product-section img:hover{
+    transition: 0.5s all ease;
+    width:18rem ;
+    height:18rem ;
+    
+}
+
+
+.plant-names{
+    display: flex;
+    margin-top:-10rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    justify-content: space-around;
+
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;;
+}
+
+
+.product-wrapper h2{
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-top: 0.7%;
+    margin-bottom: 0;
+    height: 19rem;
+    padding-top: 2%;
+   
+}
+
+.prod-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.product-wrapper img{
+    width: 20%;
+    height: 35%;
+}
+
+.product-wrapper a{
+    text-decoration: none;
+    margin: 0 0 2rem 35.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.product-wrapper a:hover{
+    border: black 1px solid;
+    padding: 1%;
+    margin-left: 34rem;
+    background-color: rgba(222, 226, 255, 0.7);
+    transition: 0.5s all ease;
+}
+
+
+/* End Product Section */
+
+
+/* About Section */
+
+.about-wrapper{
+    background-color: rgba(204, 213, 174, 1);
+    height: 27rem;
+    margin-top: 0.7%;
+    
+}
+
+#about-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2rem;
+    padding-top:2% ;
+    margin-top: 0.8%;
+}
+
+#vid-wrapper{
+    display: flex;
+
+}
+
+#about-section p{
+    margin-left: 4%;
+    padding-right: 2%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -1%;
+    line-height: 1.4rem;
+}
+
+
+
+/* End About Section */
+
+
+/* Video Section */
+
+.about-wrapper iframe{
+    width: 50rem;
+    height: 17rem;
+    margin-left:2%;
+    margin-top:-1.5%;
+    
+
+}
+
+/* End Video Section */
+
+
+/* Order Section */
+
+#order-wrapper{
+    background-color: rgba(245, 202, 195, 1);
+    height: 35rem;
+}
+
+#order-form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#order-form label{
+    flex-grow: 1;
+}
+
+
+
+#tableleft{
+    margin-left: 2%;
+    width:42%;
+    font-family: 'Raleway', sans-serif ;
+
+}
+
+#tableleft td{
+    padding: 6%;
+}
+
+#tableright{
+    margin-left: 55%;
+    margin-top: -31%;
+    width: 42%;
+    font-family: 'Raleway', sans-serif ;
+    color: black;
+
+}
+
+#tableright td{
+    padding: 6%;
+}
+
+#placeorderbttn{
+    margin-left: 45%;
+    margin-top: 7%;
+    padding: 1% 2.5%;
+    
+    cursor: pointer;
+    font-family: 'raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+
+
+}
+
+#placeorderbttn:hover{
+    transition: 0.7s all ease;
+    box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
+}
+
+
+#order-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-size:2rem ;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 0.8%;
+
+}
+
+/* End Order Section */
+
+/* Newsletter Section */
+
+.news-wrapper{
+    background-color: rgba(222, 226, 255, 1);
+    height: 18rem;
+    margin-top: 0.7%;
+    
+
+}
+
+.news-wrapper form{
+    display: flex;
+}
+
+.news-wrapper form{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 2% 0;
+}
+
+.news-wrapper label{
+    font-size: 1.3rem;
+}
+
+.news-wrapper h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+}
+
+form #email{
+    margin: 2%;
+
+}
+
+form #submit{
+    margin-top: -0.6%;
+    border:none;
+    cursor: pointer;
+    padding: 1% 1.4%;
+    background-color: rgba(222, 226, 255, 1);
+    padding: 0;
+
+
+}
+
+form #submit:hover{
+    transition: 1s all ease;
+    text-transform: uppercase;
+    border: 1px black solid;
+    background-color: rgba(181, 23, 158, 0.3);
+    color: white;
+    padding: 1%;
+}
+
+
+form #email::placeholder{
+    color: black;
+}
+form #email{
+    background-color: rgba(222, 226, 255, 1);
+    border: none;
+    margin-left: 4rem;
+
+}
+
+form #email:hover{
+    transition: 1s all ease;
+    border: black 1px solid;
+    background-color:rgba(254, 250, 224, 0.7);
+    margin-left: 2rem;
+    padding: 1%;
+
+}
+
+/* End Newsletter Section */
+
+
+
+/* Media Queries */
+
+/* Laptop */
+@media screen and (max-width: 1024px){
+
+    nav{
+        display: flex;
+        background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
+        background-blend-mode: multiply;
+        background-position: center;
+        padding:1% 0;
+        position: fixed;
+        top:0px;
+        width: 98.7%;
+        margin-top: -1%;
+        margin-left: -0.5%;
+        padding-top: 2%;
+    
+    }   
+
+nav #header-img{
+    border-radius: 50%; 
+    height: 5rem;
+    margin-left: 5%;
+    margin-right: -4%;
+}
+
+nav .nav-link a{
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+}
+
+.social li{
+    margin-right: 40%;
+}
+
+.social #ig {
+    margin-left: -50%;
+}
+    /* End navigation menu */
+
+
+    /* Title Section */
+
+.title-wrapper #title-section{
+    background-color: rgb(131, 197, 190, 0.5);
+    width: 100%;
+    height: 18rem;
+    margin-top: 7rem;
+}
+
+.title-wrapper h1{
+    text-align: center;
+    margin-top: 0.7%;
+    padding-top: 3%;
+    
+    font-size: 3rem;
+    font-family: 'Homemade Apple', cursive;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+
+    margin-top: 2rem;
+}
+
+.title-wrapper p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -1%;
+    padding: 1% 1%;
+}
+    /* End Title Section */
+
+    /* Product Section */
+    
+    .product-wrapper{
+        background-color: rgba(242, 204, 143, 1);
+        height: 37.5rem;
+       
+    }
+    
+    .product-wrapper a{
+        text-decoration: none;
+        margin: 0 0 2rem 27.5rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+    
+    .product-wrapper a:hover{
+        border: black 1px solid;
+        padding: 1%;
+        margin-left: 27rem;
+        background-color: rgba(222, 226, 255, 0.7);
+        transition: 0.5s all ease;
+    }
+    
+    /*End Product Section */
+
+    /* About Section */
+    
+    .about-wrapper{
+        background-color: rgba(204, 213, 174, 1);
+        height: 29rem;
+        margin-top: 0.7%;
+        
+    }
+   
+    #about-section p{
+        margin-left: 3%;
+        padding-right: 2%;
+        font-family: 'Raleway', sans-serif;
+        margin-top: -2%;
+        line-height: 1.4rem;
+    }
+    
+    /* End About Section */
+
+    /* Video Section */
+    
+    .about-wrapper iframe{
+        width: 50rem;
+        height: 20rem;
+        margin-left:2%;
+        margin-top:-1.5%;
+    }
+    /* End Video Section */
+
+    /* Order Section */
+    
+    #tableright{
+        margin-left: 50%;
+        margin-top: -37%;
+        width: 42%;
+        font-family: 'Raleway', sans-serif ;
+        color: black;
+    
+    }
+    
+    #tableright td{
+        padding: 10%;
+    }
+   
+   
+    #placeorderbttn{
+        margin-left: 42%;
+        margin-top: 7%;
+        padding: 1% 2.5%;
+        
+        cursor: pointer;
+        font-family: 'raleway', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    /* End Order Section */
+
+    /* Newsletter Section */
+    
+    .news-wrapper h2{
+        font-family:'Homemade Apple', cursive;
+        font-weight: 500;
+        font-size: 2rem;
+        margin: 0.8rem 0 0 0;
+    }
+  
+    /* End Newsletter Section */
+}
+/* End Laptop */
+
+
+
+/* Tablets */
+@media screen and (max-width:760px){
+
+    /* navigation menu */
+nav{
+    display: flex;
+    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding:1% 0;
+    position: fixed;
+    top:0px;
+    width: 98%;
+    margin-top: -1%;
+    margin-left: -0.5%;
+    padding-top: 2%;
+    height: 5rem;
+
+}
+
+nav #header-img{
+    border-radius: 50%;
+    height: 3rem;
+    margin-left: 1%;
+    margin-top: 2.3%;
+}
+
+nav ul /*Flex Container*/{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-weight: 600;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 5;
+
+}
+
+nav .nav-link a{
+    padding: 0.5rem 1.7rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+nav .nav-link a:hover{
+    color: rgb(252, 193, 32);
+
+}
+
+nav .social {
+    flex-direction: column;
+    height: 1rem;
+    margin-top: 4.5%;
+    text-align: center;
+}
+
+.social ig{
+    margin-top: 20%;
+
+}
+
+.social #fb{
+    margin-left: -47%;
+    
+}
+
+
+nav .social img:hover{
+    cursor: pointer;
+    background-color:rgba(194, 249, 214, 0.6);
+    border-radius: 50%;
+}
+
+nav .social img:active{
+    box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
+    
+}
+/* End navigation menu */
+
+   
+    /* Title Section */
+.title-wrapper #title-section{
+    background-color: rgb(131, 197, 190, 0.5);
+    width: 100%;
+    height: 18rem;
+    margin-top: 6.5rem;
+}
+
+.title-wrapper h1{
+    text-align: center;
+    margin-top: 0.9%;
+    padding-top: 5%;
+    
+    font-size: 3rem;
+    font-family: 'Homemade Apple', cursive;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+
+.title-wrapper p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -3%;
+    padding: 1% 1%;
+    line-height: 180%;
+}
+/* End Title Section */
+
+
+/* Product Section */
+
+.product-wrapper{
+    background-color: rgba(242, 204, 143, 1);
+    height: 82rem;
+}
+
+#product-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#product-section img{
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 17rem;
+    /* margin-top: -11rem; */
+    border: white 1.5px solid;
+}
+
+#product-section img:hover{
+    transition: 0.5s all ease;
+    width:18rem ;
+    height:18rem ;
+}
+
+
+.plant-names{
+    display: flex;
+    margin-top:-62rem;
+    padding-top: 0rem;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.plant-names #marjoram {
+    margin-bottom: 20rem;
+    margin-right: 2rem;
+}
+
+.plant-names #alyssum {
+    margin-bottom: 19rem;
+}
+
+.plant-names #gladiola {
+    margin-bottom: 2rem;
+}
+
+
+.product-wrapper h2{
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-top: 0.7%;
+    margin-bottom: 0;
+    height: 19rem;
+    padding-top: 2%;
+   
+}
+
+.prod-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.product-wrapper img{
+    width: 20%;
+    height: 35%;
+}
+
+.product-wrapper a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-left: 19rem;
+}
+
+.product-wrapper a:hover{
+    border: black 1px solid;
+    padding: 1%;
+    margin-left: 19rem;
+    background-color: rgba(222, 226, 255, 0.7);
+    transition: 0.5s all ease;
+}
+
+/* End Product Section */
+
+/* About Section */
+
+.about-wrapper{
+    background-color: rgba(204, 213, 174, 1);
+    height: 47rem;
+    margin-top: 0.7%;
+    
+}
+
+#about-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2rem;
+    padding-top:2% ;
+    margin-top: 0.8%;
+}
+
+#vid-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+#about-section p{
+    margin-left: 4%;
+    padding-right: 2%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -1%;
+    line-height: 1.4rem;
+}
+
+
+
+/* End About Section */
+
+
+/* Video Section */
+
+.about-wrapper iframe{
+    width: 30rem;
+    height: 17rem;
+    margin-left:18%;
+    margin-top:-1.5%;
+    margin-bottom: 2.5rem;
+}
+
+/* End Video Section */
+
+/* Order Section */
+
+#order-wrapper{
+    background-color: rgba(245, 202, 195, 1);
+    height: 35rem;
+}
+
+#order-form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#order-form label{
+    flex-grow: 1;
+}
+
+
+
+#tableleft{
+    margin-left: 2%;
+    width:42%;
+    font-family: 'Raleway', sans-serif ;
+
+}
+
+#tableleft td{
+    padding: 6%;
+}
+
+#tableright{
+    margin-left: 55%;
+    margin-top: -46%;
+    width: 42%;
+    font-family: 'Raleway', sans-serif ;
+    color: black;
+
+}
+
+#tableright td{
+    padding: 12%;
+}
+
+#placeorderbttn{
+    margin-left: 45%;
+    margin-top: 7%;
+    padding: 1% 2.5%;
+    
+    cursor: pointer;
+    font-family: 'raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+
+
+}
+
+#placeorderbttn:hover{
+    transition: 0.7s all ease;
+    box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
+}
+
+
+#order-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-size:2rem ;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 0.8%;
+    margin-left: 4rem;
+}
+
+/* End Order Section */
+
+/* Newsletter Section */
+
+.news-wrapper{
+    background-color: rgba(222, 226, 255, 1);
+    height: 18rem;
+    margin-top: 0.7%;
+    
+
+}
+
+.news-wrapper form{
+    display: flex;
+}
+
+.news-wrapper form{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 2% 0;
+}
+
+.news-wrapper label{
+    font-size: 1.3rem;
+}
+
+.news-wrapper h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    margin-top:1.5rem;
+}
+
+form #email{
+    margin: 2%;
+
+}
+
+form #submit{
+    margin-top: -0.6%;
+    border:none;
+    cursor: pointer;
+    padding: 1% 1.4%;
+    background-color: rgba(222, 226, 255, 1);
+    padding: 0;
+
+
+}
+
+form #submit:hover{
+    transition: 1s all ease;
+    text-transform: uppercase;
+    border: 1px black solid;
+    background-color: rgba(181, 23, 158, 0.3);
+    color: white;
+    padding: 1%;
+}
+
+
+form #email::placeholder{
+    color: black;
+}
+
+form #email{
+    background-color: rgba(222, 226, 255, 1);
+    border: none;
+    margin-left: 4rem;
+
+}
+
+form #email:hover{
+    transition: 1s all ease;
+    border: black 1px solid;
+    background-color:rgba(254, 250, 224, 0.7);
+    margin-left: 2rem;
+    padding: 1%;
+
+}
+
+/* End Newsletter Section */
+
+}
+/* End Tablets */
+
+
+
+/* Mobile L */
+@media screen and (max-width:425px){
+
+        /* navigation menu */
+nav{
+    display: flex;
+    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding:1% 0;
+    position: fixed;
+    flex-direction: column;
+    top:0px;
+    width: 98.7%;
+    margin-top: -1%;
+    margin-left: -0.5%;
+    padding-top: 1%;
+    height: 12rem;
+
+}
+
+nav #header-img{
+    border-radius: 50%;
+    height: 4rem;
+    margin-left: 14.5%;
+    width: 4rem;
+    margin-bottom: 10%;
+}
+
+nav ul /*Flex Container*/{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-weight: 600;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 5;
+    margin-top: -26%;
+
+    
+
+}
+
+nav .nav-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link li{
+    padding-top: 4.5%;
+    
+}
+
+nav .nav-link a:hover{
+    color: rgb(252, 193, 32);
+
+}
+
+nav .social {
+    padding-top:3%;
+    margin-top: -30%;
+    margin-left: -5%;
+}
+
+.social #fb{
+    margin-left: -260%;
+}
+
+
+nav .social #ig{
+    margin-left: -260%;
+    
+
+}
+
+
+nav .social img:hover{
+    cursor: pointer;
+    background-color:rgba(194, 249, 214, 0.6);
+    border-radius: 50%;
+}
+
+nav .social img:active{
+    box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
+    
+}
+/* End navigation menu */
+
+    
+/* Title Section */
+.title-wrapper #title-section{
+    background-color: rgb(131, 197, 190, 0.5);
+    width: 34rem;
+    height: 27rem;
+    margin-top: 50%;
+    
+    
+    
+}
+
+.title-wrapper h1{
+    text-align: center;
+    margin-top: 35.5%;
+    padding-top: 3%;
+    
+    font-size: 3rem;
+    font-family: 'Homemade Apple', cursive;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    
+     
+
+    
+}
+
+.title-wrapper p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -1%;
+    padding: 1% 1%;
+    line-height: 220%;
+    
+    
+}
+/* End Title Section */
+
+
+
+/* Product Section */
+
+.product-wrapper{
+    background-color: rgba(242, 204, 143, 1);
+    height: 100rem;
+    width: 34rem;
+}
+
+#product-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#product-section img{
+    width: 22rem;
+    height: 22rem;
+    margin-bottom: 17rem;
+    /* margin-top: -11rem; */
+    border: white 1.5px solid;
+}
+
+#product-section img:hover{
+    transition: 0.5s all ease;
+    width:18rem ;
+    height:18rem ;
+}
+
+
+.plant-names{
+    display: flex;
+    margin-top:-74rem;
+    padding-top: 0rem;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.plant-names #marjoram {
+    margin-bottom: 26rem;
+    margin-right: 2rem;
+}
+
+.plant-names #alyssum {
+    margin-bottom: 25rem;
+}
+
+.plant-names #gladiola {
+    margin-bottom: 3rem;
+}
+
+
+.product-wrapper h2{
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-top: 0.7%;
+    margin-bottom: 0;
+    height: 19rem;
+    padding-top: 6%;
+   
+}
+
+.prod-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.product-wrapper img{
+    width: 20%;
+    height: 35%;
+}
+
+.product-wrapper a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-left: 12.5rem;
+}
+
+.product-wrapper a:hover{
+    border: black 1px solid;
+    padding: 1%;
+    margin-left: 12rem;
+    background-color: rgba(222, 226, 255, 0.7);
+    transition: 0.5s all ease;
+}
+
+/* End Product Section */
+
+/* About Section */
+
+.about-wrapper{
+    background-color: rgba(204, 213, 174, 1);
+    height: 56rem;
+    width: 34rem;
+    margin-top: 0.7%;
+    
+}
+
+#about-section p{
+    margin-left: 4%;
+    padding-right: 4%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -1%;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+
+
+#about-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2rem;
+    padding-top:6% ;
+    margin-top: 0.8%;
+}
+/* End About Section */
+
+/* Video Section */
+
+.about-wrapper iframe{
+    width: 31rem;
+    height: 17rem;
+    margin-left:4%;
+    margin-top:-1.5%;
+    margin-bottom: 2.5rem;
+}
+
+/* End Video Section */
+
+/* Order Section */
+
+#order-wrapper{
+    background-color: rgba(245, 202, 195, 1);
+    height: 48rem;
+    width: 34rem;
+}
+
+#order-form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#order-form label{
+    flex-grow: 1;
+}
+
+
+
+#tableleft{
+    margin-left: 6%;
+    width:100%;
+    font-family: 'Raleway', sans-serif ;
+
+}
+
+#tableleft td{
+    padding: 6%;
+}
+
+#tableright{
+    margin-left: 6%;
+    margin-top: 1%;
+    width: 100%;
+    font-family: 'Raleway', sans-serif ;
+    color: black;
+
+}
+
+#tableright td{
+    padding: 6%;
+}
+
+#placeorderbttn{
+    margin-left: 35%;
+    margin-top: 7%;
+    padding: 1% 2.5%;
+    
+    cursor: pointer;
+    font-family: 'raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#placeorderbttn:hover{
+    transition: 0.7s all ease;
+    box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
+}
+
+
+#order-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-size:2rem ;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7%;
+    margin-top: 0.8%;
+    margin-left: 1rem;
+}
+
+/* End Order Section */
+
+
+/* Newsletter Section */
+
+.news-wrapper{
+    background-color: rgba(222, 226, 255, 1);
+    height: 23rem;
+    width: 34rem;
+    margin-top: 0.7%;
+    
+
+}
+
+.news-wrapper h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top:2rem;
+}
+
+/* End Newsletter Section */
+
+}
+
+/* End Mobile L */
+
+
+
+/* Mobile M */
+@media screen and (max-width:375px){
+
+        /* navigation menu */
+nav{
+    display: flex;
+    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding:1% 0;
+    position: fixed;
+    flex-direction: column;
+    top:0px;
+    width: 98.7%;
+    margin-top: -1%;
+    margin-left: -0.5%;
+    padding-top: 2%;
+    height: 11rem;
+
+}
+
+nav #header-img{
+    border-radius: 50%;
+    height: 3.5rem;
+    margin-left: 13%;
+    width: 3.5rem;
+    margin-bottom: 10%;
+}
+
+nav ul /*Flex Container*/{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-weight: 600;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 5;
+    margin-top: -26%;
+
+    
+
+}
+
+nav .nav-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link li{
+    padding-top: 6%;
+    margin-top: -2%;
+    
+}
+
+nav .nav-link a:hover{
+    color: rgb(252, 193, 32);
+
+}
+
+nav .social {
+    padding-top:3%;
+    margin-left: -5%;
+}
+
+.social #fb{
+    margin-left: -260%;
+}
+
+
+nav .social #ig{
+    margin-left: -260%;
+    
+
+}
+
+
+nav .social img:hover{
+    cursor: pointer;
+    background-color:rgba(194, 249, 214, 0.6);
+    border-radius: 50%;
+}
+
+nav .social img:active{
+    box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
+    
+}
+/* End navigation menu */
+
+    
+    .title-wrapper #title-section{
+        background-color: rgb(131, 197, 190, 0.5);
+        width: 30rem;
+        height: 29rem;
+        
+        
+        
+    }
+    
+    .title-wrapper h1{
+        text-align: center;
+        margin-top: 40%;
+        padding-top: 3%;
+        
+        font-size: 3rem;
+        font-family: 'Homemade Apple', cursive;
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+        
+         
+    
+        
+    }
+    
+    .title-wrapper p{
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: 'Raleway', sans-serif;
+        margin-top: -1%;
+        padding: 1% 4%;
+        line-height: 220%;
+        
+        
+    }
+    /* End Title Section */
+    
+    
+    
+    /* Product Section */
+    
+    .product-wrapper{
+        background-color: rgba(242, 204, 143, 1);
+        height: 100rem;
+        width: 30rem;
+    }
+    
+    #product-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #product-section img{
+        width: 22rem;
+        height: 22rem;
+        margin-bottom: 17rem;
+        /* margin-top: -11rem; */
+        border: white 1.5px solid;
+    }
+    
+    #product-section img:hover{
+        transition: 0.5s all ease;
+        width:18rem ;
+        height:18rem ;
+    }
+    
+    
+    .plant-names{
+        display: flex;
+        margin-top:-74rem;
+        padding-top: 0rem;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    
+        font-size: 1.3rem;
+        font-family: 'Raleway', sans-serif;;
+    }
+    
+    .plant-names #marjoram {
+        margin-bottom: 26rem;
+        margin-right: 2rem;
+    }
+    
+    .plant-names #alyssum {
+        margin-bottom: 25rem;
+    }
+    
+    .plant-names #gladiola {
+        margin-bottom: 3rem;
+    }
+    
+    
+    .product-wrapper h2{
+        font-family: 'Homemade Apple', cursive;
+        font-weight: 500;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        margin-top: 0.7%;
+        margin-bottom: 0;
+        height: 19rem;
+        padding-top: 6%;
+       
+    }
+    
+    .prod-flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    .product-wrapper img{
+        width: 20%;
+        height: 35%;
+    }
+    
+    .product-wrapper a{
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        margin-left:10.7rem;
+    }
+    
+    .product-wrapper a:hover{
+        border: black 1px solid;
+        padding: 1%;
+        margin-left: 10.7rem;
+        background-color: rgba(222, 226, 255, 0.7);
+        transition: 0.5s all ease;
+    }
+    
+    /* End Product Section */
+    
+    /* About Section */
+    
+    .about-wrapper{
+        background-color: rgba(204, 213, 174, 1);
+        height: 56rem;
+        width: 30rem;
+        margin-top: 0.7%;
+        
+    }
+    
+    #about-section p{
+        margin-left: 4%;
+        padding-right: 4%;
+        font-family: 'Raleway', sans-serif;
+        margin-top: -1%;
+        line-height: 1.4rem;
+        text-align: justify;
+    }
+    
+    
+    #about-section h2{
+        font-family:'Homemade Apple', cursive;
+        font-weight: 500;
+        text-align: center;
+        font-size: 2rem;
+        padding-top:6% ;
+        margin-top: 0.8%;
+    }
+    /* End About Section */
+    
+    /* Video Section */
+    
+    .about-wrapper iframe{
+        width: 28rem;
+        height: 17rem;
+        margin-left:3.2%;
+        margin-top:-1.5%;
+        margin-bottom: 2.5rem;
+
+    }
+    
+    /* End Video Section */
+    
+    /* Order Section */
+    
+    #order-wrapper{
+        background-color: rgba(245, 202, 195, 1);
+        height: 48rem;
+        width: 30rem;
+    }
+    
+    #order-form{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    #order-form label{
+        flex-grow: 1;
+    }
+    
+    
+    
+    #tableleft{
+        margin-left: 6%;
+        width:100%;
+        font-family: 'Raleway', sans-serif ;
+    
+    }
+    
+    #tableleft td{
+        padding: 6%;
+    }
+    
+    #tableright{
+        margin-left: 6%;
+        margin-top: 1%;
+        width: 100%;
+        font-family: 'Raleway', sans-serif ;
+        color: black;
+    
+    }
+    
+    #tableright td{
+        padding: 6%;
+    }
+    
+    #placeorderbttn{
+        margin-left: 35%;
+        margin-top: 7%;
+        padding: 1% 2.5%;
+        
+        cursor: pointer;
+        font-family: 'raleway', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    #placeorderbttn:hover{
+        transition: 0.7s all ease;
+        box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
+    }
+    
+    
+    #order-section h2{
+        font-family:'Homemade Apple', cursive;
+        font-size:2rem ;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 7%;
+        margin-top: 0.8%;
+        margin-left: -1rem;
+    }
+    
+    /* End Order Section */
+    
+    
+    /* Newsletter Section */
+    
+    .news-wrapper{
+        background-color: rgba(222, 226, 255, 1);
+        height: 23rem;
+        width: 30rem;
+        margin-top: 0.7%;
+    }
+    
+    .news-wrapper h2{
+        font-family:'Homemade Apple', cursive;
+        font-weight: 500;
+        font-size: 2rem;
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top:2rem;
+    }
+    
+    /* End Newsletter Section */
+    
+}
+/* End Mobile M */
+
+
+
+/* Mobile S */
+@media screen and (max-width:320px){
+    
+    /* navigation menu */
+nav{
+    display: flex;
+    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding:1% 0;
+    position: fixed;
+    flex-direction: column;
+    top:0px;
+    width: 98.7%;
+    margin-top: -1%;
+    margin-left: -0.5%;
+    padding-top: 2%;
+    height: 11rem;
+
+}
+
+nav #header-img{
+    border-radius: 50%;
+    height: 3.5rem;
+    margin-left: 13.5%;
+    width: 3.5rem;
+    margin-bottom: 10%;
+}
+
+nav ul /*Flex Container*/{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-weight: 600;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 5;
+    margin-top: -26%;
+
+    
+
+}
+
+nav .nav-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link li{
+    padding-top: 6%;
+    
+}
+
+nav .nav-link a:hover{
+    color: rgb(252, 193, 32);
+
+}
+
+nav .social {
+    padding-top:6%;
+}
+
+.social #fb{
+    margin-left: -260%;
+}
+
+
+nav .social #ig{
+    margin-left: -260%;
+    
+
+}
+
+
+nav .social img:hover{
+    cursor: pointer;
+    background-color:rgba(194, 249, 214, 0.6);
+    border-radius: 50%;
+}
+
+nav .social img:active{
+    box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
+    
+}
+/* End navigation menu */
+
+    
+    
+    .title-wrapper #title-section{
+        background-color: rgb(131, 197, 190, 0.5);
+        width: 29.4rem;
+        height: 29rem;
+    }
+    
+    .title-wrapper h1{
+        text-align: center;
+        margin-top: 40.5%;
+        padding-top: 3%;
+        
+        font-size: 3rem;
+        font-family: 'Homemade Apple', cursive;
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+    }
+    
+    .title-wrapper p{
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: 'Raleway', sans-serif;
+        margin-top: -1%;
+        padding: 1% 4%;
+        line-height: 220%;
+    }
+    /* End Title Section */
+    
+    
+    
+    /* Product Section */
+    
+    .product-wrapper{
+        background-color: rgba(242, 204, 143, 1);
+        height: 100rem;
+        width: 29.4rem;
+    }
+    
+    #product-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #product-section img{
+        width: 22rem;
+        height: 22rem;
+        margin-bottom: 17rem;
+        /* margin-top: -11rem; */
+        border: white 1.5px solid;
+    }
+    
+    #product-section img:hover{
+        transition: 0.5s all ease;
+        width:18rem ;
+        height:18rem ;
+    }
+    
+    
+    .plant-names{
+        display: flex;
+        margin-top:-74rem;
+        padding-top: 0rem;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    
+        font-size: 1.3rem;
+        font-family: 'Raleway', sans-serif;;
+    }
+    
+    .plant-names #marjoram {
+        margin-bottom: 26rem;
+        margin-right: 2rem;
+    }
+    
+    .plant-names #alyssum {
+        margin-bottom: 25rem;
+    }
+    
+    .plant-names #gladiola {
+        margin-bottom: 3rem;
+    }
+    
+    
+    .product-wrapper h2{
+        font-family: 'Homemade Apple', cursive;
+        font-weight: 500;
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        margin-top: 0.7%;
+        margin-bottom: 0;
+        height: 19rem;
+        padding-top: 6%;
+    }
+    
+    .prod-flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .product-wrapper img{
+        width: 20%;
+        height: 35%;
+    }
+    
+    .product-wrapper a{
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        margin-left:10.7rem;
+    }
+    
+    .product-wrapper a:hover{
+        border: black 1px solid;
+        padding: 1%;
+        margin-left: 10.7rem;
+        background-color: rgba(222, 226, 255, 0.7);
+        transition: 0.5s all ease;
+    }
+    
+    /* End Product Section */
+    
+    /* About Section */
+    
+    .about-wrapper{
+        background-color: rgba(204, 213, 174, 1);
+        height: 59rem;
+        width: 29.4rem;
+        margin-top: 0.7%;
+    }
+    
+    #about-section p{
+        margin-left: 4%;
+        padding-right: 4%;
+        font-family: 'Raleway', sans-serif;
+        margin-top: -1%;
+        line-height: 1.4rem;
+        text-align: justify;
+    }
+    
+    
+    #about-section h2{
+        font-family:'Homemade Apple', cursive;
+        font-weight: 500;
+        text-align: center;
+        font-size: 3rem;
+        padding-top:6% ;
+        margin-top: 0.8%;
+    }
+    /* End About Section */
+    
+    /* Video Section */
+    
+    .about-wrapper iframe{
+        width: 28rem;
+        height: 17rem;
+        margin-left:3.2%;
+        margin-top:-1.5%;
+        margin-bottom: 2.5rem;
+
+    }
+    
+    /* End Video Section */
+    
+    /* Order Section */
+    
+    #order-wrapper{
+        background-color: rgba(245, 202, 195, 1);
+        height: 48rem;
+        width:29.4rem ;
+    }
+    
+    #order-form{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    #order-form label{
+        flex-grow: 1;
+    }
+    
+    
+    
+    #tableleft{
+        margin-left: 6%;
+        width:100%;
+        font-family: 'Raleway', sans-serif ;
+    }
+    
+    #tableleft td{
+        padding: 6%;
+    }
+    
+    #tableright{
+        margin-left: 6%;
+        margin-top: 1%;
+        width: 100%;
+        font-family: 'Raleway', sans-serif ;
+        color: black;
+    
+    }
+    
+    #tableright td{
+        padding: 6%;
+    }
+    
+    #placeorderbttn{
+        margin-left: 35%;
+        margin-top: 7%;
+        padding: 1% 2.5%;
+        
+        cursor: pointer;
+        font-family: 'raleway', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    #placeorderbttn:hover{
+        transition: 0.7s all ease;
+        box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
+    }
+    
+    
+    #order-section h2{
+        font-family:'Homemade Apple', cursive;
+        font-size:3rem ;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 7%;
+        margin-top: 0.8%;
+        margin-left: -1rem;
+        margin-bottom: -1%;
+    }
+    
+    /* End Order Section */
+    
+    
+    /* Newsletter Section */
+    
+    .news-wrapper{
+        background-color: rgba(222, 226, 255, 1);
+        height: 23rem;
+        width: 29.4rem;
+        margin-top: 0.7%;
+      
+    }
+    
+    .news-wrapper h2{
+        font-family:'Homemade Apple', cursive;
+        font-weight: 500;
+        font-size: 2rem;
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top:2rem;
+    }
+    
+    /* End Newsletter Section */
+}
+/* End Mobile S */
+
+/* End Media Queries */
