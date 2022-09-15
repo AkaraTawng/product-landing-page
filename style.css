@@ -149,10 +149,9 @@ nav .social img:active{
 }
 
 #product-section img:hover{
-    transition: 0.5s all ease;
-    width:18rem ;
-    height:18rem ;
-    
+    box-shadow: 10px 10px 10px 5px rgb(54, 54, 54);
+    transition: 0.4s all ease;
+    transform: scale(1.1);
 }
 
 
