@@ -37,7 +37,7 @@ nav{
     margin-top: -1%;
     margin-left: -0.5%;
     padding-top: 2%;
-
+    z-index: 1;
 }
 
 nav #header-img{
@@ -411,7 +411,6 @@ form #email:hover{
     padding: 1%;
 
 }
-
 /* End Newsletter Section */
 
 
