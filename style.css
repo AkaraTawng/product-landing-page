@@ -1348,9 +1348,7 @@ nav .social img:active{
 /* End Title Section */
 
 
-
 /* Product Section */
-
 .product-wrapper{
     background-color: rgba(242, 204, 143, 1);
     height: 100rem;
@@ -1364,10 +1362,9 @@ nav .social img:active{
 }
 
 #product-section img{
-    width: 22rem;
-    height: 22rem;
+    width: 18rem;
+    height: 18rem;
     margin-bottom: 17rem;
-    /* margin-top: -11rem; */
     border: white 1.5px solid;
 }
 
@@ -1376,7 +1373,6 @@ nav .social img:active{
     width:18rem ;
     height:18rem ;
 }
-
 
 .plant-names{
     display: flex;
@@ -1403,7 +1399,6 @@ nav .social img:active{
     margin-bottom: 3rem;
 }
 
-
 .product-wrapper h2{
     font-family: 'Homemade Apple', cursive;
     font-weight: 500;
@@ -1414,14 +1409,12 @@ nav .social img:active{
     margin-bottom: 0;
     height: 19rem;
     padding-top: 6%;
-    
 }
 
 .prod-flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .product-wrapper img{
@@ -1444,17 +1437,14 @@ nav .social img:active{
     background-color: rgba(222, 226, 255, 0.7);
     transition: 0.5s all ease;
 }
-
 /* End Product Section */
 
 /* About Section */
-
 .about-wrapper{
     background-color: rgba(204, 213, 174, 1);
     height: 56rem;
     width: 30rem;
     margin-top: 0.7%;
-    
 }
 
 #about-section p{
@@ -1465,7 +1455,6 @@ nav .social img:active{
     line-height: 1.4rem;
     text-align: justify;
 }
-
 
 #about-section h2{
     font-family:'Homemade Apple', cursive;
@@ -1478,20 +1467,16 @@ nav .social img:active{
 /* End About Section */
 
 /* Video Section */
-
 .about-wrapper iframe{
     width: 28rem;
     height: 17rem;
     margin-left:3.2%;
     margin-top:-1.5%;
     margin-bottom: 2.5rem;
-
 }
-
 /* End Video Section */
 
 /* Order Section */
-
 #order-wrapper{
     background-color: rgba(245, 202, 195, 1);
     height: 48rem;
@@ -1509,13 +1494,10 @@ nav .social img:active{
     flex-grow: 1;
 }
 
-
-
 #tableleft{
     margin-left: 6%;
     width:100%;
     font-family: 'Raleway', sans-serif ;
-
 }
 
 #tableleft td{
@@ -1528,7 +1510,6 @@ nav .social img:active{
     width: 100%;
     font-family: 'Raleway', sans-serif ;
     color: black;
-
 }
 
 #tableright td{
@@ -1539,7 +1520,6 @@ nav .social img:active{
     margin-left: 35%;
     margin-top: 7%;
     padding: 1% 2.5%;
-    
     cursor: pointer;
     font-family: 'raleway', sans-serif;
     font-weight: 500;
