@@ -427,7 +427,6 @@ nav .nav-link a{
 
 
     /* Title Section */
-
 .title-wrapper #title-section{
     background-color: rgb(131, 197, 190, 0.5);
     width: 100%;
@@ -439,12 +438,10 @@ nav .nav-link a{
     text-align: center;
     margin-top: 0.7%;
     padding-top: 3%;
-    
     font-size: 3rem;
     font-family: 'Homemade Apple', cursive;
     letter-spacing: 0.2rem;
     font-weight: 500;
-
     margin-top: 2rem;
 }
 
@@ -457,8 +454,8 @@ nav .nav-link a{
 }
     /* End Title Section */
 
+
     /* Product Section */
-    
     .product-wrapper{
         background-color: rgba(242, 204, 143, 1);
         height: 37.5rem;
@@ -467,20 +464,11 @@ nav .nav-link a{
     
     .product-wrapper a{
         text-decoration: none;
-        margin: 0 0 2rem 27.5rem;
+        margin: 0 0 2rem 32rem;
         font-family: 'Montserrat', sans-serif;
         font-size: 1.3rem;
         text-transform: uppercase;
     }
-    
-    .product-wrapper a:hover{
-        border: black 1px solid;
-        padding: 1%;
-        margin-left: 27rem;
-        background-color: rgba(222, 226, 255, 0.7);
-        transition: 0.5s all ease;
-    }
-    
     /*End Product Section */
 
     /* About Section */
@@ -489,7 +477,6 @@ nav .nav-link a{
         background-color: rgba(204, 213, 174, 1);
         height: 29rem;
         margin-top: 0.7%;
-        
     }
    
     #about-section p{
