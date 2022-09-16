@@ -894,7 +894,7 @@ form #email{
 
 
 /* Mobile L */
-@media screen and (max-width:425px){
+@media screen and (max-width:480px){
 
         /* navigation menu */
 nav{
