@@ -1138,13 +1138,24 @@ nav .social img:active{
     background-color: rgba(245, 202, 195, 1);
     height: 48rem;
     width: 34rem;
+    height: 53rem;
+}
+
+#order-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-size:2rem ;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7%;
+    margin-top: 0.8%;
+    margin-right: 6rem;
 }
 
 #order-form{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: -3.5rem;
+    width: 100%;
 }
 
 #order-form label{
@@ -1186,16 +1197,6 @@ nav .social img:active{
 #placeorderbttn:hover{
     transition: 0.7s all ease;
     box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
-}
-
-#order-section h2{
-    font-family:'Homemade Apple', cursive;
-    font-size:2rem ;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 7%;
-    margin-top: 0.8%;
-    margin-left: 1rem;
 }
 /* End Order Section */
 
