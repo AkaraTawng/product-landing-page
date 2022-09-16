@@ -194,18 +194,23 @@ nav .social img:active{
 
 .product-wrapper a{
     text-decoration: none;
-    margin: 0 0 2rem 35.3rem;
+    margin: 0 0 2rem 43.1rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
     text-transform: uppercase;
+    padding: 1%;
 }
 
 .product-wrapper a:hover{
     border: black 1px solid;
-    padding: 1%;
-    margin-left: 34rem;
     background-color: rgba(222, 226, 255, 0.7);
-    transition: 0.5s all ease;
+    transition: 0.5s all linear;
+}
+
+.product-wrapper a:active {
+    background-color: white;
+    color: black;
+    transition: 0.1s;
 }
 
 
