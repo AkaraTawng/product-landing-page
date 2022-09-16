@@ -616,7 +616,7 @@ nav .social img:active{
 /* End navigation menu */
 
    
-    /* Title Section */
+/* Title Section */
 .title-wrapper #title-section{
     background-color: rgb(131, 197, 190, 0.5);
     width: 100%;
@@ -891,7 +891,6 @@ form #email{
     margin-left: 1.5rem;
 }
 /* End Newsletter Section */
-
 }
 /* End Tablets */
 
@@ -1128,7 +1127,7 @@ nav .social img:active{
 .about-wrapper iframe{
     width: 27rem;
     height: 17rem;
-    margin-left: 0.8rem;
+    margin-left: 1.4rem;
     margin-top:-1.5%;
     margin-bottom: 2.5rem;
 }
