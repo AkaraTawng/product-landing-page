@@ -1083,21 +1083,18 @@ nav .social img:active{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
     text-transform: uppercase;
-    margin-left: 12.5rem;
+    margin-left: 10.5rem;
+    padding: 1%;
 }
 
 .product-wrapper a:hover{
-    border: black 1px solid;
-    padding: 1%;
-    margin-left: 12rem;
-    background-color: rgba(222, 226, 255, 0.7);
     transition: 0.5s all ease;
+    margin-left: 10.5rem;
 }
-
 /* End Product Section */
 
-/* About Section */
 
+/* About Section */
 .about-wrapper{
     background-color: rgba(204, 213, 174, 1);
     height: 56rem;
