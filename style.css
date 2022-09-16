@@ -783,6 +783,16 @@ nav .social img:active{
     height: 35rem;
 }
 
+#order-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-size:2rem ;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 0.8%;
+    margin-left: 1.5rem;
+}
+
 #order-form{
     display: flex;
     flex-wrap: wrap;
@@ -817,8 +827,8 @@ nav .social img:active{
 }
 
 #placeorderbttn{
-    margin-left: 45%;
-    margin-top: 7%;
+    margin-left: 15rem;
+    margin-top: 3rem;
     padding: 1% 2.5%;
     cursor: pointer;
     font-family: 'raleway', sans-serif;
@@ -829,16 +839,6 @@ nav .social img:active{
 #placeorderbttn:hover{
     transition: 0.7s all ease;
     box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
-}
-
-#order-section h2{
-    font-family:'Homemade Apple', cursive;
-    font-size:2rem ;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 2%;
-    margin-top: 0.8%;
-    margin-left: 4rem;
 }
 /* End Order Section */
 
