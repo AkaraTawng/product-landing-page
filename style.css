@@ -1112,31 +1112,26 @@ nav .social img:active{
     text-align: justify;
 }
 
-
 #about-section h2{
     font-family:'Homemade Apple', cursive;
     font-weight: 500;
-    text-align: center;
     font-size: 2rem;
-    padding-top:6% ;
-    margin-top: 0.8%;
+    padding-top: 2rem;
+    margin-right: 5.5rem;
 }
 /* End About Section */
 
 /* Video Section */
-
 .about-wrapper iframe{
-    width: 31rem;
+    width: 27rem;
     height: 17rem;
-    margin-left:4%;
+    margin-left: 0.8rem;
     margin-top:-1.5%;
     margin-bottom: 2.5rem;
 }
-
 /* End Video Section */
 
 /* Order Section */
-
 #order-wrapper{
     background-color: rgba(245, 202, 195, 1);
     height: 48rem;
@@ -1154,13 +1149,10 @@ nav .social img:active{
     flex-grow: 1;
 }
 
-
-
 #tableleft{
     margin-left: 6%;
     width:100%;
     font-family: 'Raleway', sans-serif ;
-
 }
 
 #tableleft td{
@@ -1173,7 +1165,6 @@ nav .social img:active{
     width: 100%;
     font-family: 'Raleway', sans-serif ;
     color: black;
-
 }
 
 #tableright td{
@@ -1184,7 +1175,6 @@ nav .social img:active{
     margin-left: 35%;
     margin-top: 7%;
     padding: 1% 2.5%;
-    
     cursor: pointer;
     font-family: 'raleway', sans-serif;
     font-weight: 500;
@@ -1196,7 +1186,6 @@ nav .social img:active{
     box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
 }
 
-
 #order-section h2{
     font-family:'Homemade Apple', cursive;
     font-size:2rem ;
@@ -1206,19 +1195,15 @@ nav .social img:active{
     margin-top: 0.8%;
     margin-left: 1rem;
 }
-
 /* End Order Section */
 
 
 /* Newsletter Section */
-
 .news-wrapper{
     background-color: rgba(222, 226, 255, 1);
     height: 23rem;
     width: 34rem;
     margin-top: 0.7%;
-    
-
 }
 
 .news-wrapper h2{
@@ -1230,11 +1215,8 @@ nav .social img:active{
     padding-right: 5%;
     margin-top:2rem;
 }
-
 /* End Newsletter Section */
-
 }
-
 /* End Mobile L */
 
 
