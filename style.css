@@ -763,14 +763,10 @@ nav .social img:active{
     margin-top: -1%;
     line-height: 1.4rem;
 }
-
-
-
 /* End About Section */
 
 
 /* Video Section */
-
 .about-wrapper iframe{
     width: 30rem;
     height: 17rem;
@@ -778,11 +774,10 @@ nav .social img:active{
     margin-top:-1.5%;
     margin-bottom: 2.5rem;
 }
-
 /* End Video Section */
 
-/* Order Section */
 
+/* Order Section */
 #order-wrapper{
     background-color: rgba(245, 202, 195, 1);
     height: 35rem;
@@ -799,13 +794,10 @@ nav .social img:active{
     flex-grow: 1;
 }
 
-
-
 #tableleft{
-    margin-left: 2%;
+    margin-left: -7%;
     width:42%;
     font-family: 'Raleway', sans-serif ;
-
 }
 
 #tableleft td{
@@ -818,7 +810,6 @@ nav .social img:active{
     width: 42%;
     font-family: 'Raleway', sans-serif ;
     color: black;
-
 }
 
 #tableright td{
@@ -829,20 +820,16 @@ nav .social img:active{
     margin-left: 45%;
     margin-top: 7%;
     padding: 1% 2.5%;
-    
     cursor: pointer;
     font-family: 'raleway', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-
-
 }
 
 #placeorderbttn:hover{
     transition: 0.7s all ease;
     box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
 }
-
 
 #order-section h2{
     font-family:'Homemade Apple', cursive;
@@ -853,17 +840,14 @@ nav .social img:active{
     margin-top: 0.8%;
     margin-left: 4rem;
 }
-
 /* End Order Section */
 
-/* Newsletter Section */
 
+/* Newsletter Section */
 .news-wrapper{
     background-color: rgba(222, 226, 255, 1);
     height: 18rem;
     margin-top: 0.7%;
-    
-
 }
 
 .news-wrapper form{
@@ -892,7 +876,6 @@ nav .social img:active{
 
 form #email{
     margin: 2%;
-
 }
 
 form #submit{
@@ -902,8 +885,6 @@ form #submit{
     padding: 1% 1.4%;
     background-color: rgba(222, 226, 255, 1);
     padding: 0;
-
-
 }
 
 form #submit:hover{
@@ -915,7 +896,6 @@ form #submit:hover{
     padding: 1%;
 }
 
-
 form #email::placeholder{
     color: black;
 }
@@ -924,7 +904,6 @@ form #email{
     background-color: rgba(222, 226, 255, 1);
     border: none;
     margin-left: 4rem;
-
 }
 
 form #email:hover{
@@ -933,9 +912,7 @@ form #email:hover{
     background-color:rgba(254, 250, 224, 0.7);
     margin-left: 2rem;
     padding: 1%;
-
 }
-
 /* End Newsletter Section */
 
 }
