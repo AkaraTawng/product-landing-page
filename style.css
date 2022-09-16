@@ -260,7 +260,6 @@ nav .social img:active{
     height: 17rem;
     margin-left:2%;
     margin-top:-1.5%;
-    
 
 }
 
@@ -285,13 +284,10 @@ nav .social img:active{
     flex-grow: 1;
 }
 
-
-
 #tableleft{
     margin-left: 2%;
     width:42%;
     font-family: 'Raleway', sans-serif ;
-
 }
 
 #tableleft td{
@@ -304,7 +300,6 @@ nav .social img:active{
     width: 42%;
     font-family: 'Raleway', sans-serif ;
     color: black;
-
 }
 
 #tableright td{
@@ -313,19 +308,16 @@ nav .social img:active{
 
 #placeorderbttn{
     margin-left: 45%;
-    margin-top: 7%;
+    margin-top: 2%;
     padding: 1% 2.5%;
-    
     cursor: pointer;
     font-family: 'raleway', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-
-
 }
 
 #placeorderbttn:hover{
-    transition: 0.7s all ease;
+    transition: 0.4s all ease;
     box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
 }
 
