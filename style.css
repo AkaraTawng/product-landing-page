@@ -471,8 +471,8 @@ nav .nav-link a{
     }
     /*End Product Section */
 
+
     /* About Section */
-    
     .about-wrapper{
         background-color: rgba(204, 213, 174, 1);
         height: 29rem;
@@ -486,16 +486,14 @@ nav .nav-link a{
         margin-top: -2%;
         line-height: 1.4rem;
     }
-    
     /* End About Section */
 
     /* Video Section */
-    
     .about-wrapper iframe{
         width: 50rem;
         height: 20rem;
-        margin-left:2%;
-        margin-top:-1.5%;
+        margin-left: 2%;
+        margin-top: -4%;
     }
     /* End Video Section */
 
