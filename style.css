@@ -1213,10 +1213,21 @@ nav .social img:active{
     font-family:'Homemade Apple', cursive;
     font-weight: 500;
     font-size: 2rem;
-    margin: 0;
-    padding-left: 5%;
-    padding-right: 5%;
     margin-top:2rem;
+    margin-left: 0.7rem;
+}
+
+.news-wrapper label{
+    margin-left: -3.9rem;
+    width: 80%;
+}
+
+form #email{
+    margin-right: 4rem;
+}
+
+form #submit{
+  margin-right: 3rem;
 }
 /* End Newsletter Section */
 }
@@ -1224,7 +1235,9 @@ nav .social img:active{
 
 
 
-/* Mobile M */
+/************************* Mobile M *************************/
+
+
 @media screen and (max-width:375px){
 
         /* navigation menu */
