@@ -399,7 +399,6 @@ form #email:hover{
         margin-top: -1%;
         margin-left: -0.5%;
         padding-top: 2%;
-    
     }   
 
 nav #header-img{
@@ -456,83 +455,81 @@ nav .nav-link a{
 
 
     /* Product Section */
-    .product-wrapper{
-        background-color: rgba(242, 204, 143, 1);
-        height: 37.5rem;
-       
-    }
+.product-wrapper{
+    background-color: rgba(242, 204, 143, 1);
+    height: 37.5rem;
     
-    .product-wrapper a{
-        text-decoration: none;
-        margin: 0 0 2rem 32rem;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.3rem;
-        text-transform: uppercase;
-    }
-    /*End Product Section */
+}
+
+.product-wrapper a{
+    text-decoration: none;
+    margin: 0 0 2rem 32rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+/*End Product Section */
 
 
-    /* About Section */
-    .about-wrapper{
-        background-color: rgba(204, 213, 174, 1);
-        height: 29rem;
-        margin-top: 0.7%;
-    }
-   
-    #about-section p{
-        margin-left: 3%;
-        padding-right: 2%;
-        font-family: 'Raleway', sans-serif;
-        margin-top: -2%;
-        line-height: 1.4rem;
-    }
-    /* End About Section */
+/* About Section */
+.about-wrapper{
+    background-color: rgba(204, 213, 174, 1);
+    height: 29rem;
+    margin-top: 0.7%;
+}
 
-    /* Video Section */
-    .about-wrapper iframe{
-        width: 50rem;
-        height: 20rem;
-        margin-left: 2%;
-        margin-top: -4%;
-    }
-    /* End Video Section */
+#about-section p{
+    margin-left: 3%;
+    padding-right: 2%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -2%;
+    line-height: 1.4rem;
+}
+/* End About Section */
 
-    /* Order Section */
-    
-    #tableright{
-        margin-left: 50%;
-        margin-top: -37%;
-        width: 42%;
-        font-family: 'Raleway', sans-serif ;
-        color: black;
-    
-    }
-    
-    #tableright td{
-        padding: 10%;
-    }
-   
-   
-    #placeorderbttn{
-        margin-left: 42%;
-        margin-top: 7%;
-        padding: 1% 2.5%;
-        
-        cursor: pointer;
-        font-family: 'raleway', sans-serif;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-    /* End Order Section */
 
-    /* Newsletter Section */
+/* Video Section */
+.about-wrapper iframe{
+    width: 50rem;
+    height: 20rem;
+    margin-left: 2%;
+    margin-top: -4%;
+}
+/* End Video Section */
+
+
+/* Order Section */
+#tableright{
+    margin-left: 50%;
+    margin-top: -37%;
+    width: 42%;
+    font-family: 'Raleway', sans-serif ;
+    color: black;
+}
+
+#tableright td{
+    padding: 10%;
+}
+
+#placeorderbttn{
+    margin-left: 42%;
+    margin-top: 7%;
+    padding: 1% 2.5%;
     
-    .news-wrapper h2{
-        font-family:'Homemade Apple', cursive;
-        font-weight: 500;
-        font-size: 2rem;
-        margin: 0.8rem 0 0 0;
-    }
+    cursor: pointer;
+    font-family: 'raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* End Order Section */
+
+/* Newsletter Section */
+.news-wrapper h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
+}
   
     /* End Newsletter Section */
 }
