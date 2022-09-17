@@ -1577,11 +1577,10 @@ form #submit{
 /* End Mobile M */
 
 
-
 /* Mobile S */
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     
-    /* navigation menu */
+/* navigation menu */
 nav{
     display: flex;
     background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
@@ -1596,7 +1595,6 @@ nav{
     margin-left: -0.5%;
     padding-top: 2%;
     height: 11rem;
-
 }
 
 nav #header-img{
@@ -1620,9 +1618,6 @@ nav ul /*Flex Container*/{
     font-family: 'Montserrat', sans-serif;
     z-index: 5;
     margin-top: -26%;
-
-    
-
 }
 
 nav .nav-link a{
@@ -1633,12 +1628,10 @@ nav .nav-link a{
 
 .nav-link li{
     padding-top: 6%;
-    
 }
 
 nav .nav-link a:hover{
     color: rgb(252, 193, 32);
-
 }
 
 nav .social {
@@ -1649,13 +1642,9 @@ nav .social {
     margin-left: -260%;
 }
 
-
 nav .social #ig{
     margin-left: -260%;
-    
-
 }
-
 
 nav .social img:hover{
     cursor: pointer;
@@ -1665,275 +1654,261 @@ nav .social img:hover{
 
 nav .social img:active{
     box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
-    
 }
 /* End navigation menu */
 
-    
-    
-    .title-wrapper #title-section{
-        background-color: rgb(131, 197, 190, 0.5);
-        width: 29.4rem;
-        height: 29rem;
-    }
-    
-    .title-wrapper h1{
-        text-align: center;
-        margin-top: 40.5%;
-        padding-top: 3%;
-        
-        font-size: 3rem;
-        font-family: 'Homemade Apple', cursive;
-        letter-spacing: 0.2rem;
-        font-weight: 500;
-    }
-    
-    .title-wrapper p{
-        text-align: center;
-        font-size: 1.3rem;
-        font-family: 'Raleway', sans-serif;
-        margin-top: -1%;
-        padding: 1% 4%;
-        line-height: 220%;
-    }
-    /* End Title Section */
-    
-    
-    
-    /* Product Section */
-    
-    .product-wrapper{
-        background-color: rgba(242, 204, 143, 1);
-        height: 100rem;
-        width: 29.4rem;
-    }
-    
-    #product-section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #product-section img{
-        width: 22rem;
-        height: 22rem;
-        margin-bottom: 17rem;
-        /* margin-top: -11rem; */
-        border: white 1.5px solid;
-    }
-    
-    #product-section img:hover{
-        transition: 0.5s all ease;
-        width:18rem ;
-        height:18rem ;
-    }
-    
-    
-    .plant-names{
-        display: flex;
-        margin-top:-74rem;
-        padding-top: 0rem;
-        justify-content: space-around;
-        flex-direction: column;
-        text-align: center;
-    
-        font-size: 1.3rem;
-        font-family: 'Raleway', sans-serif;;
-    }
-    
-    .plant-names #marjoram {
-        margin-bottom: 26rem;
-        margin-right: 2rem;
-    }
-    
-    .plant-names #alyssum {
-        margin-bottom: 25rem;
-    }
-    
-    .plant-names #gladiola {
-        margin-bottom: 3rem;
-    }
-    
-    
-    .product-wrapper h2{
-        font-family: 'Homemade Apple', cursive;
-        font-weight: 500;
-        font-size: 3rem;
-        letter-spacing: 0.2rem;
-        text-align: center;
-        margin-top: 0.7%;
-        margin-bottom: 0;
-        height: 19rem;
-        padding-top: 6%;
-    }
-    
-    .prod-flex{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .product-wrapper img{
-        width: 20%;
-        height: 35%;
-    }
-    
-    .product-wrapper a{
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.3rem;
-        text-transform: uppercase;
-        margin-left:10.7rem;
-    }
-    
-    .product-wrapper a:hover{
-        border: black 1px solid;
-        padding: 1%;
-        margin-left: 10.7rem;
-        background-color: rgba(222, 226, 255, 0.7);
-        transition: 0.5s all ease;
-    }
-    
-    /* End Product Section */
-    
-    /* About Section */
-    
-    .about-wrapper{
-        background-color: rgba(204, 213, 174, 1);
-        height: 59rem;
-        width: 29.4rem;
-        margin-top: 0.7%;
-    }
-    
-    #about-section p{
-        margin-left: 4%;
-        padding-right: 4%;
-        font-family: 'Raleway', sans-serif;
-        margin-top: -1%;
-        line-height: 1.4rem;
-        text-align: justify;
-    }
-    
-    
-    #about-section h2{
-        font-family:'Homemade Apple', cursive;
-        font-weight: 500;
-        text-align: center;
-        font-size: 3rem;
-        padding-top:6% ;
-        margin-top: 0.8%;
-    }
-    /* End About Section */
-    
-    /* Video Section */
-    
-    .about-wrapper iframe{
-        width: 28rem;
-        height: 17rem;
-        margin-left:3.2%;
-        margin-top:-1.5%;
-        margin-bottom: 2.5rem;
+.title-wrapper #title-section{
+    width: 26rem;
+    height: 32rem;
+}
 
-    }
+.title-wrapper h1{
+    margin-top: -1rem;
+    padding-top: 2rem;
+    font-size: 2.7rem;
+}
+
+.title-wrapper p{
+    margin-top: -2rem;
+}
+/* End Title Section */
+
+
+
+/* Product Section */
+
+.product-wrapper{
+    background-color: rgba(242, 204, 143, 1);
+    height: 100rem;
+    width: 29.4rem;
+}
+
+#product-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#product-section img{
+    width: 22rem;
+    height: 22rem;
+    margin-bottom: 17rem;
+    /* margin-top: -11rem; */
+    border: white 1.5px solid;
+}
+
+#product-section img:hover{
+    transition: 0.5s all ease;
+    width:18rem ;
+    height:18rem ;
+}
+
+
+.plant-names{
+    display: flex;
+    margin-top:-74rem;
+    padding-top: 0rem;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.plant-names #marjoram {
+    margin-bottom: 26rem;
+    margin-right: 2rem;
+}
+
+.plant-names #alyssum {
+    margin-bottom: 25rem;
+}
+
+.plant-names #gladiola {
+    margin-bottom: 3rem;
+}
+
+
+.product-wrapper h2{
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-top: 0.7%;
+    margin-bottom: 0;
+    height: 19rem;
+    padding-top: 6%;
+}
+
+.prod-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-wrapper img{
+    width: 20%;
+    height: 35%;
+}
+
+.product-wrapper a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-left:10.7rem;
+}
+
+.product-wrapper a:hover{
+    border: black 1px solid;
+    padding: 1%;
+    margin-left: 10.7rem;
+    background-color: rgba(222, 226, 255, 0.7);
+    transition: 0.5s all ease;
+}
+
+/* End Product Section */
+
+/* About Section */
+
+.about-wrapper{
+    background-color: rgba(204, 213, 174, 1);
+    height: 59rem;
+    width: 29.4rem;
+    margin-top: 0.7%;
+}
+
+#about-section p{
+    margin-left: 4%;
+    padding-right: 4%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -1%;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+
+
+#about-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    text-align: center;
+    font-size: 3rem;
+    padding-top:6% ;
+    margin-top: 0.8%;
+}
+/* End About Section */
+
+/* Video Section */
+
+.about-wrapper iframe{
+    width: 28rem;
+    height: 17rem;
+    margin-left:3.2%;
+    margin-top:-1.5%;
+    margin-bottom: 2.5rem;
+
+}
+
+/* End Video Section */
+
+/* Order Section */
+
+#order-wrapper{
+    background-color: rgba(245, 202, 195, 1);
+    height: 48rem;
+    width:29.4rem ;
+}
+
+#order-form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#order-form label{
+    flex-grow: 1;
+}
+
+
+
+#tableleft{
+    margin-left: 6%;
+    width:100%;
+    font-family: 'Raleway', sans-serif ;
+}
+
+#tableleft td{
+    padding: 6%;
+}
+
+#tableright{
+    margin-left: 6%;
+    margin-top: 1%;
+    width: 100%;
+    font-family: 'Raleway', sans-serif ;
+    color: black;
+
+}
+
+#tableright td{
+    padding: 6%;
+}
+
+#placeorderbttn{
+    margin-left: 35%;
+    margin-top: 7%;
+    padding: 1% 2.5%;
     
-    /* End Video Section */
+    cursor: pointer;
+    font-family: 'raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#placeorderbttn:hover{
+    transition: 0.7s all ease;
+    box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
+}
+
+
+#order-section h2{
+    font-family:'Homemade Apple', cursive;
+    font-size:3rem ;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7%;
+    margin-top: 0.8%;
+    margin-left: -1rem;
+    margin-bottom: -1%;
+}
+
+/* End Order Section */
+
+
+/* Newsletter Section */
+
+.news-wrapper{
+    background-color: rgba(222, 226, 255, 1);
+    height: 23rem;
+    width: 29.4rem;
+    margin-top: 0.7%;
     
-    /* Order Section */
-    
-    #order-wrapper{
-        background-color: rgba(245, 202, 195, 1);
-        height: 48rem;
-        width:29.4rem ;
-    }
-    
-    #order-form{
-        display: flex;
-        flex-wrap: wrap;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    
-    #order-form label{
-        flex-grow: 1;
-    }
-    
-    
-    
-    #tableleft{
-        margin-left: 6%;
-        width:100%;
-        font-family: 'Raleway', sans-serif ;
-    }
-    
-    #tableleft td{
-        padding: 6%;
-    }
-    
-    #tableright{
-        margin-left: 6%;
-        margin-top: 1%;
-        width: 100%;
-        font-family: 'Raleway', sans-serif ;
-        color: black;
-    
-    }
-    
-    #tableright td{
-        padding: 6%;
-    }
-    
-    #placeorderbttn{
-        margin-left: 35%;
-        margin-top: 7%;
-        padding: 1% 2.5%;
-        
-        cursor: pointer;
-        font-family: 'raleway', sans-serif;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-    
-    #placeorderbttn:hover{
-        transition: 0.7s all ease;
-        box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
-    }
-    
-    
-    #order-section h2{
-        font-family:'Homemade Apple', cursive;
-        font-size:3rem ;
-        font-weight: 500;
-        text-align: center;
-        padding-top: 7%;
-        margin-top: 0.8%;
-        margin-left: -1rem;
-        margin-bottom: -1%;
-    }
-    
-    /* End Order Section */
-    
-    
-    /* Newsletter Section */
-    
-    .news-wrapper{
-        background-color: rgba(222, 226, 255, 1);
-        height: 23rem;
-        width: 29.4rem;
-        margin-top: 0.7%;
-      
-    }
-    
-    .news-wrapper h2{
-        font-family:'Homemade Apple', cursive;
-        font-weight: 500;
-        font-size: 2rem;
-        margin: 0;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-top:2rem;
-    }
-    
-    /* End Newsletter Section */
+}
+
+.news-wrapper h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top:2rem;
+}
+
+/* End Newsletter Section */
 }
 /* End Mobile S */
 
