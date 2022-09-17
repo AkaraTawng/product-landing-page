@@ -294,7 +294,6 @@ nav .social img:active{
     padding-top: 2%;
     margin-top: 0.8%;
 }
-
 /* End Order Section */
 
 /* Newsletter Section */
@@ -446,7 +445,45 @@ form #email:hover{
     margin-top:-1.5%;
 }
 
+/* Order Section */
+#order-wrapper{
+    height: 55rem;
+}
 
+#order-section h2{
+    font-size:3.5rem;
+}
+
+#order-form{
+    font-size: 1.7rem;
+}
+
+#tableleft input{
+    height: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#tableright input{
+    height: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#tableright {
+    margin-top: -34.5rem;
+}
+
+#tableright td{
+    padding: 6%;
+}
+
+#placeorderbttn{
+    margin-left: 43%;
+    margin-top: 2%;
+    padding: 1% 2.5%;
+    font-size: 1.3rem;
+}
 
 
 
