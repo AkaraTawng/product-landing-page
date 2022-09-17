@@ -192,13 +192,10 @@ nav .social img:active{
     color: black;
     transition: 0.1s;
 }
-
-
 /* End Product Section */
 
 
 /* About Section */
-
 .about-wrapper{
     background-color: rgba(204, 213, 174, 1);
     height: 27rem;
@@ -225,24 +222,20 @@ nav .social img:active{
     margin-top: -1%;
     line-height: 1.4rem;
 }
-
 /* End About Section */
 
 
 /* Video Section */
-
 .about-wrapper iframe{
     width: 50rem;
     height: 17rem;
     margin-left:2%;
     margin-top:-1.5%;
 }
-
 /* End Video Section */
 
 
 /* Order Section */
-
 #order-wrapper{
     background-color: rgba(245, 202, 195, 1);
     height: 35rem;
@@ -1794,25 +1787,32 @@ nav .social img:active{
 }
 /* End Order Section */
 
-
 /* Newsletter Section */
 .news-wrapper{
-    background-color: rgba(222, 226, 255, 1);
-    height: 23rem;
+    height: 30rem;
     width: 29.4rem;
     margin-top: 0.7%;
 }
 
 .news-wrapper h2{
-    font-family:'Homemade Apple', cursive;
-    font-weight: 500;
     font-size: 2rem;
-    margin: 0;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 1rem;
     margin-top:2rem;
 }
 
+.news-wrapper label{
+    width: 70%;
+    margin-left: -7rem;
+}
+
+form #email{
+    margin-left: -3rem;
+}
+
+form #submit{
+    transition: 1s all ease;
+    margin-left: -4.5rem;
+}
 /* End Newsletter Section */
 }
 /* End Mobile S */
