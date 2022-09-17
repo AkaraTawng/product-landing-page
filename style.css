@@ -1770,94 +1770,37 @@ nav .social img:active{
     margin-left: 0.8rem;
     margin-top:-1.5%;
     margin-bottom: 2.5rem;
-
 }
-
 /* End Video Section */
 
 /* Order Section */
-
 #order-wrapper{
-    background-color: rgba(245, 202, 195, 1);
-    height: 48rem;
+    height: 44rem;
     width:29.4rem ;
 }
 
+#order-section h2{
+    font-size:2.7rem ;
+    margin-bottom: -1%;
+}
+
 #order-form{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-#order-form label{
-    flex-grow: 1;
-}
-
-
-
-#tableleft{
-    margin-left: 6%;
-    width:100%;
-    font-family: 'Raleway', sans-serif ;
-}
-
-#tableleft td{
-    padding: 6%;
-}
-
-#tableright{
-    margin-left: 6%;
-    margin-top: 1%;
-    width: 100%;
-    font-family: 'Raleway', sans-serif ;
-    color: black;
-
-}
-
-#tableright td{
-    padding: 6%;
+    width: 85%;
+    margin-left: -4.2rem;
 }
 
 #placeorderbttn{
     margin-left: 35%;
-    margin-top: 7%;
-    padding: 1% 2.5%;
-    
-    cursor: pointer;
-    font-family: 'raleway', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
 }
-
-#placeorderbttn:hover{
-    transition: 0.7s all ease;
-    box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
-}
-
-
-#order-section h2{
-    font-family:'Homemade Apple', cursive;
-    font-size:3rem ;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 7%;
-    margin-top: 0.8%;
-    margin-left: -1rem;
-    margin-bottom: -1%;
-}
-
 /* End Order Section */
 
 
 /* Newsletter Section */
-
 .news-wrapper{
     background-color: rgba(222, 226, 255, 1);
     height: 23rem;
     width: 29.4rem;
     margin-top: 0.7%;
-    
 }
 
 .news-wrapper h2{
