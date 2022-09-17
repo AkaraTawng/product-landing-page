@@ -1478,30 +1478,15 @@ nav .social img:active{
     margin-top: -2rem;
 }
 /* End Title Section */
-
-/* Product Section */
-.product-wrapper{
-    background-color: rgba(242, 204, 143, 1);
-    height: 89rem;
-    width: 29.4rem;
-}
-
 .product-wrapper h2{
     font-size: 2.7rem;
     margin-left: -6rem;
     margin-bottom: 1rem;
 }
 
-#product-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 #product-section img{
     margin-bottom: 17rem;
-    border: white 1.5px solid;
-    margin-right: 2.3rem;
+    margin-right: 2.9rem;
 }
 
 .plant-names #marjoram {
@@ -1518,37 +1503,23 @@ nav .social img:active{
     margin-right: 7.5rem;
 }
 
-.prod-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .product-wrapper img{
     width: 20%;
     height: 35%;
 }
 
 .product-wrapper a{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
-    text-transform: uppercase;
     margin-left: 7rem;
 }
 
 .product-wrapper a:hover{
-    border: black 1px solid;
-    padding: 1%;
     margin-left: 7rem;
-    background-color: rgba(222, 226, 255, 0.7);
-    transition: 0.5s all ease;
 }
 /* End Product Section */
 
 /* About Section */
 .about-wrapper{
-    background-color: rgba(204, 213, 174, 1);
     height: 70rem;
     width: 29.4rem;
     margin-top: 0.7%;
