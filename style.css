@@ -420,6 +420,36 @@ form #email:hover{
     margin-left: 53rem;
 }
 
+/* About Section */
+.about-wrapper{
+    height: 48rem;
+    margin-top: 0.7%;
+}
+
+#about-section h2{
+    font-size: 3.5rem;
+    padding-top:2% ;
+    margin-top: 0.8%;
+}
+
+#about-section p{
+    margin-top: -1%;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.about-wrapper iframe{
+    width: 50rem;
+    height: 31rem;
+    margin-left:2%;
+    margin-top:-1.5%;
+}
+
+
+
+
+
 
 }
 
