@@ -503,7 +503,6 @@ form #submit{
 
 /************************* Laptop *************************/
 
-
 @media screen and (max-width: 1200px){
 
 nav{
@@ -616,7 +615,7 @@ nav .nav-link a{
 
 @media screen and (max-width:760px){
 
-    /* navigation menu */
+/* navigation menu */
 nav{
     display: flex;
     background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
@@ -689,44 +688,23 @@ nav .social img:active{
 }
 /* End navigation menu */
 
-   
 /* Title Section */
 .title-wrapper #title-section{
-    background-color: rgb(131, 197, 190, 0.5);
-    width: 100%;
-    height: 18rem;
-    margin-top: 6.5rem;
-}
-
-.title-wrapper h1{
-    text-align: center;
-    margin-top: 0.9%;
-    padding-top: 5%;
-    font-size: 3rem;
-    font-family: 'Homemade Apple', cursive;
-    letter-spacing: 0.2rem;
-    font-weight: 500;
-}
-
-.title-wrapper p{
-    text-align: center;
-    font-size: 1.3rem;
-    font-family: 'Raleway', sans-serif;
-    margin-top: -3%;
-    padding: 1% 1%;
-    line-height: 180%;
+    margin-top: 6.3rem;
 }
 /* End Title Section */
 
-
 /* Product Section */
 .product-wrapper{
-    background-color: rgba(242, 204, 143, 1);
     height: 82rem;
 }
 
+.product-wrapper h2{
+    font-size: 2rem;
+    padding-top: 5%;
+}
+
 #product-section{
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -735,8 +713,6 @@ nav .social img:active{
     width: 16rem;
     height: 16rem;
     margin-bottom: 17rem;
-    /* margin-top: -11rem; */
-    border: white 1.5px solid;
 }
 
 #product-section img:hover{
@@ -745,14 +721,11 @@ nav .social img:active{
 }
 
 .plant-names{
-    display: flex;
     margin-top:-62rem;
     padding-top: 0rem;
-    justify-content: space-around;
     flex-direction: column;
     text-align: center;
     font-size: 1.3rem;
-    font-family: 'Raleway', sans-serif;;
 }
 
 .plant-names #marjoram {
@@ -769,18 +742,6 @@ nav .social img:active{
     margin-left: 1rem;
 }
 
-.product-wrapper h2{
-    font-family: 'Homemade Apple', cursive;
-    font-weight: 500;
-    font-size: 2rem;
-    letter-spacing: 0.2rem;
-    text-align: center;
-    margin-top: 0.7%;
-    margin-bottom: 0;
-    height: 19rem;
-    padding-top: 5%;
-}
-
 .prod-flex{
     display: flex;
     justify-content: space-around;
@@ -793,50 +754,19 @@ nav .social img:active{
 }
 
 .product-wrapper a{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
-    text-transform: uppercase;
     margin-left: 19rem;
-}
-
-.product-wrapper a:hover{
-    border: black 1px solid;
-    padding: 1%;
-    margin-left: 19rem;
-    background-color: rgba(222, 226, 255, 0.7);
-    transition: 0.5s all ease;
 }
 /* End Product Section */
 
-
 /* About Section */
 .about-wrapper{
-    background-color: rgba(204, 213, 174, 1);
     height: 47rem;
     margin-top: 0.7%;
-}
-
-#about-section h2{
-    font-family:'Homemade Apple', cursive;
-    font-weight: 500;
-    text-align: center;
-    font-size: 2rem;
-    padding-top:2% ;
-    margin-top: 0.8%;
 }
 
 #vid-wrapper{
     display: flex;
     flex-direction: column;
-}
-
-#about-section p{
-    margin-left: 4%;
-    padding-right: 2%;
-    font-family: 'Raleway', sans-serif;
-    margin-top: -1%;
-    line-height: 1.4rem;
 }
 /* End About Section */
 
@@ -852,25 +782,11 @@ nav .social img:active{
 
 /* Order Section */
 #order-wrapper{
-    background-color: rgba(245, 202, 195, 1);
     height: 35rem;
 }
 
 #order-section h2{
-    font-family:'Homemade Apple', cursive;
-    font-size:2rem ;
-    font-weight: 500;
-    text-align: center;
     padding-top: 3rem;
-    margin-top: 0.8%;
-    margin-left: 1.5rem;
-}
-
-#order-form{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 #order-form label{
@@ -879,8 +795,6 @@ nav .social img:active{
 
 #tableleft{
     margin-left: -7%;
-    width:42%;
-    font-family: 'Raleway', sans-serif ;
 }
 
 #tableleft td{
@@ -890,9 +804,6 @@ nav .social img:active{
 #tableright{
     margin-left: 55%;
     margin-top: -46%;
-    width: 42%;
-    font-family: 'Raleway', sans-serif ;
-    color: black;
 }
 
 #tableright td{
@@ -900,24 +811,12 @@ nav .social img:active{
 }
 
 #placeorderbttn{
-    margin-left: 15rem;
     margin-top: 3rem;
-    padding: 1% 2.5%;
-    cursor: pointer;
-    font-family: 'raleway', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-#placeorderbttn:hover{
-    transition: 0.7s all ease;
-    box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
 }
 /* End Order Section */
 
 /* Newsletter Section */
 .news-wrapper{
-    background-color: rgba(222, 226, 255, 1);
     height: 18rem;
     margin-top: 0.7%;
 }
@@ -926,23 +825,11 @@ nav .social img:active{
     display: flex;
 }
 
-.news-wrapper form{
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Raleway', sans-serif;
-    padding: 2% 0;
-}
-
 .news-wrapper label{
     font-size: 1.3rem;
 }
 
 .news-wrapper h2{
-    font-family:'Homemade Apple', cursive;
-    font-weight: 500;
-    font-size: 2rem;
-    margin: 0;
     margin-top:1.5rem;
 }
 
@@ -950,13 +837,7 @@ form #email{
     margin: 2%;
 }
 
-form #email::placeholder{
-    color: black;
-}
-
 form #email{
-    background-color: rgba(222, 226, 255, 1);
-    border: none;
     margin-left: 1.5rem;
 }
 /* End Newsletter Section */
@@ -969,13 +850,13 @@ form #email{
 
 @media screen and (max-width:480px){
 
-    body {
-        overflow-x: hidden;
-        padding: 0;
-        margin: 0;
-    }
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
 
-        /* navigation menu */
+/* navigation menu */
 nav{
     display: flex;
     background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
@@ -1054,30 +935,22 @@ nav .social img:active{
 }
 /* End navigation menu */
 
-    
 /* Title Section */
 .title-wrapper #title-section{
-    background-color: rgb(131, 197, 190, 0.5);
     width: 34rem;
     height: 32rem;
     margin-top: 12.7rem;
 }
 
 .title-wrapper h1{
-    text-align: center;
     margin-left: 1.4rem;
     width: 80%;
     padding-top: 2rem;
     font-size: 3rem;
-    font-family: 'Homemade Apple', cursive;
-    letter-spacing: 0.2rem;
-    font-weight: 500;  
 }
 
 .title-wrapper p{
-    text-align: center;
     font-size: 1.3rem;
-    font-family: 'Raleway', sans-serif;
     margin-left: 1rem;
     width: 80%;
     line-height: 220%;
@@ -1086,7 +959,6 @@ nav .social img:active{
 
 /* Product Section */
 .product-wrapper{
-    background-color: rgba(242, 204, 143, 1);
     height: 82rem;
     width: 34rem;
 }
@@ -1098,31 +970,18 @@ nav .social img:active{
 }
 
 .product-wrapper h2{
-    font-family: 'Homemade Apple', cursive;
-    font-weight: 500;
-    font-size: 2rem;
-    letter-spacing: 0.2rem;
     margin-left: -4.5rem;
-    margin-bottom: 0;
-    height: 19rem;
     padding-top: 2rem;
 }
 
 #product-section img{
-    margin-bottom: 17rem;
     margin-left: -4.5rem;
-    border: white 1.5px solid;
 }
 
 .plant-names{
-    display: flex;
     margin-top:-74rem;
     padding-top: 0rem;
-    justify-content: space-around;
-    flex-direction: column;
-    text-align: center;
     font-size: 1.3rem;
-    font-family: 'Raleway', sans-serif;;
 }
 
 .plant-names #marjoram {
@@ -1140,22 +999,13 @@ nav .social img:active{
     margin-right: 4.5rem;
 }
 
-.prod-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .product-wrapper img{
     width: 20%;
     height: 35%;
 }
 
 .product-wrapper a{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
-    text-transform: uppercase;
     margin-left: 10.5rem;
     padding: 1%;
 }
@@ -1168,26 +1018,20 @@ nav .social img:active{
 
 /* About Section */
 .about-wrapper{
-    background-color: rgba(204, 213, 174, 1);
     height: 61rem;
     width: 34rem;
 }
 
-#about-section p{
-    margin-left: 2.5rem;
-    width: 70%;
-    font-family: 'Raleway', sans-serif;
-    margin-top: -0.5rem;
-    line-height: 1.4rem;
-    text-align: justify;
-}
-
 #about-section h2{
-    font-family:'Homemade Apple', cursive;
-    font-weight: 500;
-    font-size: 2rem;
     padding-top: 2rem;
     margin-right: 5.5rem;
+}
+
+#about-section p{
+    margin-left: 3rem;
+    width: 70%;
+    margin-top: -0.5rem;
+    text-align: justify;
 }
 /* End About Section */
 
@@ -1203,17 +1047,12 @@ nav .social img:active{
 
 /* Order Section */
 #order-wrapper{
-    background-color: rgba(245, 202, 195, 1);
     height: 48rem;
     width: 34rem;
     height: 53rem;
 }
 
 #order-section h2{
-    font-family:'Homemade Apple', cursive;
-    font-size:2rem ;
-    font-weight: 500;
-    text-align: center;
     padding-top: 7%;
     margin-top: 0.8%;
     margin-right: 6rem;
@@ -1233,7 +1072,6 @@ nav .social img:active{
 #tableleft{
     margin-left: 6%;
     width:100%;
-    font-family: 'Raleway', sans-serif ;
 }
 
 #tableleft td{
@@ -1244,8 +1082,6 @@ nav .social img:active{
     margin-left: 6%;
     margin-top: 1%;
     width: 100%;
-    font-family: 'Raleway', sans-serif ;
-    color: black;
 }
 
 #tableright td{
@@ -1256,10 +1092,6 @@ nav .social img:active{
     margin-left: 35%;
     margin-top: 7%;
     padding: 1% 2.5%;
-    cursor: pointer;
-    font-family: 'raleway', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
 }
 
 #placeorderbttn:hover{
@@ -1270,15 +1102,12 @@ nav .social img:active{
 
 /* Newsletter Section */
 .news-wrapper{
-    background-color: rgba(222, 226, 255, 1);
     height: 23rem;
     width: 34rem;
     margin-top: 0.7%;
 }
 
 .news-wrapper h2{
-    font-family:'Homemade Apple', cursive;
-    font-weight: 500;
     font-size: 2rem;
     margin-top:2rem;
     margin-left: 0.7rem;
