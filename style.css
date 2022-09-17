@@ -1486,8 +1486,7 @@ nav .social img:active{
 #order-form{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: -4.6rem;
 }
 
 #order-form label{
