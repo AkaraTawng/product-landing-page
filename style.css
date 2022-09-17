@@ -297,11 +297,17 @@ nav .social img:active{
 /* End Order Section */
 
 /* Newsletter Section */
-
 .news-wrapper{
     background-color: rgba(222, 226, 255, 1);
     height: 22rem;
     margin-top: 0.7%;
+}
+
+.news-wrapper h2{
+    font-family:'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0.5rem 0 0 0;
 }
 
 .news-wrapper form{
@@ -318,13 +324,6 @@ nav .social img:active{
 
 .news-wrapper label{
     font-size: 1.3rem;
-}
-
-.news-wrapper h2{
-    font-family:'Homemade Apple', cursive;
-    font-weight: 500;
-    font-size: 2rem;
-    margin: 0.5rem 0 0 0;
 }
 
 form #email{
@@ -484,6 +483,31 @@ form #email:hover{
     padding: 1% 2.5%;
     font-size: 1.3rem;
 }
+
+/* Newsletter Section */
+.news-wrapper{
+    height: 35rem;
+    margin-top: 0.3%;
+}
+
+.news-wrapper h2{
+    font-size: 3.5rem;
+    margin: 2.5rem 0 0 0;
+}
+
+.news-wrapper label{
+    font-size: 1.9rem;
+}
+
+
+form #email{
+    font-size: 1.5rem;
+}
+
+form #submit{
+    font-size: 1.4rem;
+}
+
 
 
 
