@@ -1739,44 +1739,35 @@ nav .social img:active{
     background-color: rgba(222, 226, 255, 0.7);
     transition: 0.5s all ease;
 }
-
 /* End Product Section */
 
 /* About Section */
-
 .about-wrapper{
     background-color: rgba(204, 213, 174, 1);
-    height: 59rem;
+    height: 70rem;
     width: 29.4rem;
     margin-top: 0.7%;
 }
 
 #about-section p{
-    margin-left: 4%;
-    padding-right: 4%;
-    font-family: 'Raleway', sans-serif;
+    margin-left: 1.6rem;
     margin-top: -1%;
-    line-height: 1.4rem;
-    text-align: justify;
+    width: 65%;
+
 }
 
-
 #about-section h2{
-    font-family:'Homemade Apple', cursive;
-    font-weight: 500;
-    text-align: center;
-    font-size: 3rem;
-    padding-top:6% ;
-    margin-top: 0.8%;
+    font-size: 2.7rem;
+    padding-top: 6%;
+    margin-left: -1.5rem;
 }
 /* End About Section */
 
 /* Video Section */
-
 .about-wrapper iframe{
-    width: 28rem;
+    width: 21rem;
     height: 17rem;
-    margin-left:3.2%;
+    margin-left: 0.8rem;
     margin-top:-1.5%;
     margin-bottom: 2.5rem;
 
