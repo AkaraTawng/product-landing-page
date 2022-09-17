@@ -385,11 +385,8 @@ form #email:hover{
 }
 
 .title-wrapper p{
-    text-align: center;
     font-size: 1.7rem;
-    font-family: 'Raleway', sans-serif;
     margin-top: -3rem;
-    padding: 1% 1%;   
 }
 
 /* Product Section */
@@ -473,10 +470,6 @@ form #email:hover{
     margin-top: -34.5rem;
 }
 
-#tableright td{
-    padding: 6%;
-}
-
 #placeorderbttn{
     margin-left: 43%;
     margin-top: 2%;
@@ -499,7 +492,6 @@ form #email:hover{
     font-size: 1.9rem;
 }
 
-
 form #email{
     font-size: 1.5rem;
 }
@@ -507,11 +499,6 @@ form #email{
 form #submit{
     font-size: 1.4rem;
 }
-
-
-
-
-
 }
 
 /************************* Laptop *************************/
@@ -590,7 +577,6 @@ nav .nav-link a{
 .product-wrapper{
     background-color: rgba(242, 204, 143, 1);
     height: 37.5rem;
-    
 }
 
 .product-wrapper a{
@@ -646,7 +632,6 @@ nav .nav-link a{
     margin-left: 42%;
     margin-top: 7%;
     padding: 1% 2.5%;
-    
     cursor: pointer;
     font-family: 'raleway', sans-serif;
     font-weight: 500;
@@ -661,8 +646,7 @@ nav .nav-link a{
     font-size: 2rem;
     margin: 2rem 0 0 0;
 }
-  
-    /* End Newsletter Section */
+/* End Newsletter Section */
 }
 /* End Laptop */
 
@@ -813,7 +797,6 @@ nav .social img:active{
 
 .plant-names #marjoram {
     margin-bottom: 20rem;
-    /* margin-right: 1rem; */
     margin-left: 1rem;
 }
 
@@ -872,7 +855,6 @@ nav .social img:active{
     background-color: rgba(204, 213, 174, 1);
     height: 47rem;
     margin-top: 0.7%;
-    
 }
 
 #about-section h2{
@@ -898,7 +880,6 @@ nav .social img:active{
 }
 /* End About Section */
 
-
 /* Video Section */
 .about-wrapper iframe{
     width: 30rem;
@@ -908,7 +889,6 @@ nav .social img:active{
     margin-bottom: 2.5rem;
 }
 /* End Video Section */
-
 
 /* Order Section */
 #order-wrapper{
@@ -974,7 +954,6 @@ nav .social img:active{
     box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
 }
 /* End Order Section */
-
 
 /* Newsletter Section */
 .news-wrapper{
@@ -1227,7 +1206,6 @@ nav .social img:active{
 }
 /* End Product Section */
 
-
 /* About Section */
 .about-wrapper{
     background-color: rgba(204, 213, 174, 1);
@@ -1329,7 +1307,6 @@ nav .social img:active{
     box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
 }
 /* End Order Section */
-
 
 /* Newsletter Section */
 .news-wrapper{
@@ -1672,7 +1649,6 @@ nav .social img:active{
 }
 /* End Order Section */
 
-
 /* Newsletter Section */
 .news-wrapper{
     background-color: rgba(222, 226, 255, 1);
@@ -1804,7 +1780,6 @@ nav .social img:active{
 }
 /* End Title Section */
 
-
 /* Product Section */
 .product-wrapper{
     background-color: rgba(242, 204, 143, 1);
@@ -1884,7 +1859,6 @@ nav .social img:active{
     margin-left: 1.6rem;
     margin-top: -1%;
     width: 65%;
-
 }
 
 #about-section h2{
