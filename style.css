@@ -115,7 +115,6 @@ nav .social img:active{
 .product-wrapper{
     background-color: rgba(242, 204, 143, 1);
     height: 37rem;
-   
 }
 
 #product-section{
@@ -394,6 +393,34 @@ form #email:hover{
     margin-top: -3rem;
     padding: 1% 1%;   
 }
+
+/* Product Section */
+.product-wrapper{
+    height: 47rem;
+}
+
+.product-wrapper h2{
+    font-size: 3.5rem;
+    margin-top: 0.7%;
+    margin-bottom: 1rem;
+    height: 19rem;
+}
+
+#product-section img{
+    width: 21rem;
+    height: 20rem;
+}
+
+.plant-names{
+    font-size: 2rem;
+}
+
+.product-wrapper a{
+    font-size: 1.8rem;
+    margin-left: 53rem;
+}
+
+
 }
 
 /************************* Laptop *************************/
