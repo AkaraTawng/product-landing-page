@@ -1282,82 +1282,21 @@ form #submit{
 /* Mobile S */
 @media screen and (max-width:360px){
     
+
 /* navigation menu */
-/* nav{ */
-    /* display: flex;
-    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
-    background-blend-mode: multiply;
-    background-position: center;
-    padding:1% 0;
-    position: fixed;
-    flex-direction: column;
-    top:0px;
-    width: 98.7%; */
-    /* margin-top: -1%;
-    margin-left: -0.5%;
-    padding-top: 2%;
-    height: 11rem;
-}
-
-nav #header-img{
-    border-radius: 50%;
-    height: 3.5rem;
-    margin-left: 13.5%;
-    width: 3.5rem;
-    margin-bottom: 10%;
-}
-
-nav ul /*Flex Container*/{
-    /* list-style-type:none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-grow: 1;
-    flex-shrink: 1;
-    font-weight: 600;
-    align-items: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    z-index: 5;
-    margin-top: -26%;
-}
-
-nav .nav-link a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-}
-
-.nav-link li{
-    padding-top: 6%;
-}
-
-nav .nav-link a:hover{
-    color: rgb(252, 193, 32);
-} */
-
-/* nav.social {
-    padding-top:6%;
-} */
-
-/* .social #fb{
-    margin-left: -260%;
-}
-
-nav .social #ig{
-    margin-left: -260%;
-}
-
-nav .social img:hover{
-    cursor: pointer;
-    background-color:rgba(194, 249, 214, 0.6);
-    border-radius: 50%;
-}
-
-nav .social img:active{
-    box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
-} */
-/* End navigation menu */ */
+nav {
+    height: 4.1rem;
+ }
+ 
+ nav #header-img{
+     margin-left: 8.5rem;
+ }
+ 
+ nav .social {
+     margin-left: 30.5rem;
+ }
+ /* End navigation menu */
+/* End navigation menu */ 
 
 .title-wrapper #title-section{
     width: 26rem;
