@@ -822,19 +822,14 @@ body {
 
 /* navigation menu */
 nav{
-    display: flex;
-    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
-    background-blend-mode: multiply;
     background-position: center;
     padding:1% 0;
-    position: fixed;
     flex-direction: column;
     top:0px;
-    width: 98.7%;
-    margin-top: -1%;
+    width: 100%;
     margin-left: -0.5%;
-    padding-top: 1%;
-    height: 12rem;
+    padding-top: 2rem;
+    height: 22rem;
 }
 
 nav #header-img{
@@ -843,27 +838,34 @@ nav #header-img{
     margin-left: 14.5%;
     width: 4rem;
     margin-bottom: 10%;
+    cursor: pointer;
+}
+
+nav #header-img:hover {
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+nav #header-img:active {
+    filter: none;
 }
 
 nav ul /*Flex Container*/{
-    list-style-type:none;
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     flex-grow: 1;
     flex-shrink: 1;
-    font-weight: 600;
-    align-items: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
     z-index: 5;
-    margin-top: -26%;
+    margin-top: -3rem;
+    margin-right: 2rem;
 }
 
-nav .nav-link a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
+.nav-link.open, .social.open {
+    display: none;
+}
+#nav-bar {
+    transition: all 0.4s ease-out;
+}
+#nav-bar.open {
+    height: 5rem;
 }
 
 .nav-link li{
@@ -875,27 +877,21 @@ nav .nav-link a:hover{
 }
 
 nav .social {
-    padding-top:3%;
-    margin-top: -30%;
-    margin-left: -5%;
-}
-
-.social #fb{
-    margin-left: -260%;
-}
-
-nav .social #ig{
-    margin-left: -260%;
-}
-
-nav .social img:hover{
-    cursor: pointer;
-    background-color:rgba(194, 249, 214, 0.6);
-    border-radius: 50%;
+    margin-top: 0rem;
+    flex-direction: row;
+    margin-left: 34rem;
 }
 
 nav .social img:active{
     box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
+}
+
+#header-img {
+    height: 5rem !important;
+    width: 6rem !important;
+    margin-top: -1rem !important;
+    margin-left: 12.4rem !important;
+    
 }
 /* End navigation menu */
 
@@ -903,7 +899,7 @@ nav .social img:active{
 .title-wrapper #title-section{
     width: 34rem;
     height: 32rem;
-    margin-top: 12.7rem;
+    margin-top: 7.5rem;
 }
 
 .title-wrapper h1{
