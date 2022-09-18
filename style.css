@@ -829,16 +829,17 @@ nav{
     width: 100%;
     margin-left: -0.5%;
     padding-top: 2rem;
-    height: 22rem;
+    height: 5rem;
 }
 
 nav #header-img{
     border-radius: 50%;
-    height: 4rem;
-    margin-left: 14.5%;
-    width: 4rem;
     margin-bottom: 10%;
     cursor: pointer;
+    height: 5rem;
+    width: 6rem;
+    margin-top: -1rem;
+    margin-left: 12.4rem;
 }
 
 nav #header-img:hover {
@@ -856,16 +857,23 @@ nav ul /*Flex Container*/{
     z-index: 5;
     margin-top: -3rem;
     margin-right: 2rem;
-}
-
-.nav-link.open, .social.open {
     display: none;
 }
+
+.social.open {
+    display: flex;
+}
+
+.nav-link.open {
+    display: flex;
+}
+
 #nav-bar {
     transition: all 0.4s ease-out;
 }
+
 #nav-bar.open {
-    height: 5rem;
+    height: 22rem;
 }
 
 .nav-link li{
@@ -880,18 +888,11 @@ nav .social {
     margin-top: 0rem;
     flex-direction: row;
     margin-left: 34rem;
+    transition: all 0.3s ease;
 }
 
 nav .social img:active{
     box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
-}
-
-#header-img {
-    height: 5rem !important;
-    width: 6rem !important;
-    margin-top: -1rem !important;
-    margin-left: 12.4rem !important;
-    
 }
 /* End navigation menu */
 
@@ -1096,32 +1097,28 @@ form #submit{
 @media screen and (max-width:400px){
 
 /* navigation menu */
-nav{
-    display: flex;
-    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
-    background-blend-mode: multiply;
-    background-position: center;
-    padding:1% 0;
-    position: fixed;
-    flex-direction: column;
-    top:0px;
-    width: 98.7%;
-    margin-top: -1%;
-    margin-left: -0.5%;
-    padding-top: 2%;
-    height: 11rem;
+nav {
+   /* height: 4.1rem !important; */
 }
 
 nav #header-img{
     border-radius: 50%;
-    height: 3.5rem;
-    margin-left: 13%;
-    width: 3.5rem;
-    margin-bottom: 10%;
 }
 
-nav ul /*Flex Container*/{
-    list-style-type:none;
+.nav-link.open, .social.open {
+    display: none;
+}
+
+#nav-bar {
+    transition: all 0.4s ease-out;
+}
+/* 
+#nav-bar.open {
+    height: 4rem;
+} */
+
+/* nav ul Flex Container{ */
+    /* list-style-type:none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1171,7 +1168,7 @@ nav .social img:hover{
 
 nav .social img:active{
     box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
-}
+} */
 /* End navigation menu */
 
 .title-wrapper #title-section{
@@ -1347,8 +1344,8 @@ form #submit{
 @media screen and (max-width:360px){
     
 /* navigation menu */
-nav{
-    display: flex;
+/* nav{ */
+    /* display: flex;
     background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
     background-blend-mode: multiply;
     background-position: center;
@@ -1356,8 +1353,8 @@ nav{
     position: fixed;
     flex-direction: column;
     top:0px;
-    width: 98.7%;
-    margin-top: -1%;
+    width: 98.7%; */
+    /* margin-top: -1%;
     margin-left: -0.5%;
     padding-top: 2%;
     height: 11rem;
@@ -1372,7 +1369,7 @@ nav #header-img{
 }
 
 nav ul /*Flex Container*/{
-    list-style-type:none;
+    /* list-style-type:none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1398,13 +1395,13 @@ nav .nav-link a{
 
 nav .nav-link a:hover{
     color: rgb(252, 193, 32);
-}
+} */
 
-nav .social {
+/* nav.social {
     padding-top:6%;
-}
+} */
 
-.social #fb{
+/* .social #fb{
     margin-left: -260%;
 }
 
@@ -1420,8 +1417,8 @@ nav .social img:hover{
 
 nav .social img:active{
     box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
-}
-/* End navigation menu */
+} */
+/* End navigation menu */ */
 
 .title-wrapper #title-section{
     width: 26rem;
