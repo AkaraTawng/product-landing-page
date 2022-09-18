@@ -650,6 +650,11 @@ nav .social img:active{
 /* Title Section */
 .title-wrapper #title-section{
     margin-top: 8.9rem;
+    height: 15rem;
+}
+
+#title-section h1 {
+    margin-bottom: -0.5rem;
 }
 /* End Title Section */
 
