@@ -1,3 +1,5 @@
+#Note: works best in Firefox.
+
 # Why? 🤔
 - Developed as part of FreeCodeCamp's Legacy Responsive Design (https://www.freecodecamp.org/learn/responsive-web-design/) curriculum 
 
