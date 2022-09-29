@@ -13,6 +13,7 @@
 
 # Features ⚙
 - Product Gallery
+![product gallery gif](./gifs/product-section.gif)
 - Embedded Video
 - Product Order Form
 - Newsletter Sign Up Form 
