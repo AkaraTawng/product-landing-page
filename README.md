@@ -22,7 +22,7 @@
 ![order form video gif](./gifs/order-form.gif)
 
 ## Newsletter Sign Up Form 
-
+![newsletter gif](./gifs/newsletter.gif)
 ---
 
 # What I learned? 👨‍💻
