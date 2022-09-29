@@ -12,11 +12,16 @@
 ---
 
 # Features ⚙
-- Product Gallery
+## Product Gallery
 ![product gallery gif](./gifs/product-section.gif)
-- Embedded Video
-- Product Order Form
-- Newsletter Sign Up Form 
+
+## embedded Video
+![embedded video gif](./gifs/embedded-video.gif)
+
+## Product Order Form
+
+
+## Newsletter Sign Up Form 
 
 ---
 
