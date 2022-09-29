@@ -23,6 +23,13 @@
 
 ## Newsletter Sign Up Form 
 ![newsletter gif](./gifs/newsletter.gif)
+
+## Fully Responsive UI
+![responsive ui gif](./gifs/responsive-ui.gif)
+
+
+## Custom Company Logo Hamburger Menu
+![hamburger menu gif](./gifs/hamburger.gif)
 ---
 
 # What I learned? 👨‍💻
