@@ -19,7 +19,7 @@
 ![embedded video gif](./gifs/embedded-video.gif)
 
 ## Product Order Form
-
+![order form video gif](./gifs/order-form.gif)
 
 ## Newsletter Sign Up Form 
 
