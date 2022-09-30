@@ -1236,13 +1236,10 @@ form #submit{
 .contact-flex-container h1 {
     margin-bottom: 3rem;
 }
-
 }
 /* End Mobile L */
 
-
 /************************* Mobile M *************************/
-
 
 @media screen and (max-width:400px){
 
@@ -1277,8 +1274,6 @@ nav .social {
     margin-top: -7%;
     width: 75%;
 }
-/* End Title Section */
-
 
 /* Product Section */
 .product-wrapper{
@@ -1319,7 +1314,6 @@ nav .social {
 .product-wrapper a:hover{
     margin-left: 8.5rem;
 }
-/* End Product Section */
 
 /* About Section */
 .about-wrapper{
@@ -1338,7 +1332,6 @@ nav .social {
     padding-top:6% ;
     margin-top: 0.8%;
 }
-/* End About Section */
 
 /* Video Section */
 .about-wrapper iframe{
@@ -1346,7 +1339,6 @@ nav .social {
     margin-left:1rem;
     margin-top:-1rem;
 }
-/* End Video Section */
 
 /* Order Section */
 #order-wrapper{
@@ -1395,7 +1387,6 @@ nav .social {
     margin-top: 0.8%;
     margin-left: -1rem;
 }
-/* End Order Section */
 
 /* Newsletter Section */
 .news-wrapper{
@@ -1423,7 +1414,23 @@ form #email{
 form #submit{
     margin-left: -1.2rem;
 }
-/* End Newsletter Section */
+
+.footer-flex-container {
+    margin-left: 7rem;
+    font-size: 1.2rem;
+}
+
+.contact-flex-container h1 {
+    margin-bottom: 2rem;
+}
+
+.contact-flex-container-ul li:last-of-type {
+    margin-left: -4rem;
+}
+
+#email-span {
+    margin-left: 7rem;
+}
 }
 /* End Mobile M */
 
