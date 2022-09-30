@@ -367,19 +367,97 @@ form #email:hover{
 
 /* footer */
 .footer-flex-container {
-    background-color: rgb(0, 48, 73);
-    height: 15rem;
-    margin-top: .5rem;
-}
-/* End Newsletter Section */
-
-.footer-flex-container {
+    display: flex;
+    justify-content: space-around;
     background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
     background-blend-mode: multiply;
     background-position: center;
     padding:1% 0;
-
+    height: 19rem;
+    margin-top: .5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.footer-flex-container ul {
+    list-style-type: none;
+}
+
+.footer-flex-container li span {
+    font-weight: bolder;
+}
+
+.footer-flex-container p {
+    align-self: flex-end;
+}
+
+.sitemap-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sitemap-flex-container h1{
+    font-weight: bolder;
+}
+
+.sitemap-flex-container a, .contact-flex-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.sitemap-flex-container a:hover, .contact-flex-container a:hover {
+    color: rgb(252, 193, 32);
+}
+
+.sitemap-flex-container a:active, .contact-flex-container a:active {
+    color: white;
+}
+
+.sitemap-flex-container ul {
+    margin-top: -1rem;
+}
+
+.sitemap-flex-container li {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.contact-flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 11rem;
+}
+
+.contact-flex-container h1 {
+    text-align: left;
+    font-weight: bolder;
+}
+
+.contact-flex-container-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 5rem;
+    width: 3rem;
+    align-items: flex-start;
+    margin-left: -2rem;
+    margin-top: -1rem;
+} 
+
+.contact-flex-container-ul li:first-of-type {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+} 
+
+.contact-flex-container-ul li {
+    white-space: nowrap;
+}
+
+#copyright {
+    font-weight: bolder;
+}
+
 
 
 
