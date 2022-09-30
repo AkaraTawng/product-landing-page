@@ -364,7 +364,23 @@ form #email:hover{
     background-color:rgba(254, 250, 224, 0.7);
     /* margin-left: 2rem; */
 }
+
+/* footer */
+.footer-flex-container {
+    background-color: rgb(0, 48, 73);
+    height: 15rem;
+    margin-top: .5rem;
+}
 /* End Newsletter Section */
+
+.footer-flex-container {
+    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding:1% 0;
+
+}
+
 
 
 
@@ -1431,6 +1447,14 @@ form #submit{
     margin-left: -4.5rem;
 }
 /* End Newsletter Section */
+
+/* footer
+.footer-flex-container {
+    background-color: black;
+    height: 50rem;
+    width: 99%;
+} */
+
 }
 /* End Mobile S */
 
