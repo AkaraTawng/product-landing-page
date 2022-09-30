@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap'); /*font-family: 'Viaoda Libre', cursive;*/
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Viaoda+Libre&display=swap') /* font-family: 'Amatic SC', cursive; */
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Viaoda+Libre&display=swap'); /* font-family: 'Amatic SC', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap'); /*font-family: 'Nothing You Could Do', cursive;*/
 
@@ -14,6 +13,11 @@
 
 body{
     margin-top: 0;
+    overflow-x: hidden;
+}
+
+#email-break {
+    display: none;
 }
 
 .wrapper{
@@ -81,7 +85,6 @@ nav .social img:hover{
 nav .social img:active{
     box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);   
 }
-/* End navigation menu */
 
 /* Title Section */
 .title-wrapper #title-section{
@@ -108,7 +111,6 @@ nav .social img:active{
     margin-top: -1%;
     padding: 1% 1%;   
 }
-/* End Title Section */
 
 /* Product Section */
 .product-wrapper{
@@ -188,8 +190,6 @@ nav .social img:active{
     color: black;
     transition: 0.1s;
 }
-/* End Product Section */
-
 
 /* About Section */
 .about-wrapper{
@@ -218,8 +218,6 @@ nav .social img:active{
     margin-top: -1%;
     line-height: 1.4rem;
 }
-/* End About Section */
-
 
 /* Video Section */
 .about-wrapper iframe{
@@ -228,8 +226,6 @@ nav .social img:active{
     margin-left:2%;
     margin-top:-1.5%;
 }
-/* End Video Section */
-
 
 /* Order Section */
 #order-wrapper{
@@ -293,7 +289,6 @@ nav .social img:active{
     padding-top: 2%;
     margin-top: 0.8%;
 }
-/* End Order Section */
 
 /* Newsletter Section */
 .news-wrapper{
@@ -340,7 +335,6 @@ form #submit{
 }
 
 form #submit:hover{
-    /* transition: 1s all ease; */
     text-transform: uppercase;
     border: 1px black solid;
     background-color: rgba(181, 23, 158, 0.3);
@@ -362,12 +356,103 @@ form #email:hover{
     transition: 1s all ease;
     border: black 1px solid;
     background-color:rgba(254, 250, 224, 0.7);
-    /* margin-left: 2rem; */
 }
-/* End Newsletter Section */
 
+/* footer */
+#footer {
+    background: url(img/cac.png), rgba(44, 199, 101, 0.7)  ;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding:1% 0;
+    height: 25rem;
+    margin-top: .5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10rem;
+}
 
+.footer-flex-container ul {
+    list-style-type: none;
+}
 
+.footer-flex-container li span {
+    font-weight: bolder;
+}
+
+#footer p {
+   text-align: center;
+}
+
+.sitemap-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sitemap-flex-container h1{
+    font-weight: bolder;
+}
+
+.sitemap-flex-container a, .contact-flex-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.sitemap-flex-container a:hover, .contact-flex-container a:hover {
+    color: rgb(252, 193, 32);
+}
+
+.sitemap-flex-container a:active, .contact-flex-container a:active {
+    color: white;
+}
+
+.sitemap-flex-container ul {
+    margin-top: -1rem;
+}
+
+.sitemap-flex-container li {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.contact-flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 11rem;
+}
+
+.contact-flex-container h1 {
+    text-align: left;
+    font-weight: bolder;
+}
+
+.contact-flex-container-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 5rem;
+    width: 3rem;
+    align-items: flex-start;
+    margin-left: -2rem;
+    margin-top: -1rem;
+} 
+
+.contact-flex-container-ul li:first-of-type {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+} 
+
+.contact-flex-container-ul li {
+    white-space: nowrap;
+}
+
+#copyright {
+    font-weight: bolder;
+}
 /* Media Queries */
 
 /************************* hi-res *************************/
@@ -528,8 +613,6 @@ nav .nav-link a{
 .social #ig {
     margin-left: -50%;
 }
-/* End navigation menu */
-
 
 /* Title Section */
 .title-wrapper #title-section{
@@ -545,7 +628,6 @@ nav .nav-link a{
     font-weight: 500;
     margin-top: 2rem;
 }
- /* End Title Section */
 
 /* Product Section */
 .product-wrapper{
@@ -556,14 +638,12 @@ nav .nav-link a{
     margin: 0 0 2rem 32rem;
     font-size: 1.3rem;
 }
-/*End Product Section */
 
 /* About Section */
 .about-wrapper{
     height: 29rem;
     margin-top: 0.7%;
 }
-/* End About Section */
 
 /* Video Section */
 .about-wrapper iframe{
@@ -572,7 +652,6 @@ nav .nav-link a{
     margin-left: 2%;
     margin-top: -3%;
 }
-/* End Video Section */
 
 /* Order Section */
 #tableright{
@@ -587,13 +666,11 @@ nav .nav-link a{
     margin-left: 42%;
     margin-top: 4%;
 }
-/* End Order Section */
 
 /* Newsletter Section */
 .news-wrapper h2{
     margin: 2rem 0 0 0;
 }
-/* End Newsletter Section */
 }
 /* End Laptop */
 
@@ -602,8 +679,6 @@ nav .nav-link a{
 
 
 @media screen and (max-width:760px){
-
-/* navigation menu */
 nav{
     width: 98%;
     margin-top: -1%;
@@ -645,7 +720,6 @@ nav .social {
 nav .social img:active{
     box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);  
 }
-/* End navigation menu */
 
 /* Title Section */
 .title-wrapper #title-section{
@@ -656,7 +730,6 @@ nav .social img:active{
 #title-section h1 {
     margin-bottom: -0.5rem;
 }
-/* End Title Section */
 
 /* Product Section */
 .product-wrapper{
@@ -720,7 +793,6 @@ nav .social img:active{
 .product-wrapper a{
     margin-left: 19rem;
 }
-/* End Product Section */
 
 /* About Section */
 .about-wrapper{
@@ -732,7 +804,6 @@ nav .social img:active{
     display: flex;
     flex-direction: column;
 }
-/* End About Section */
 
 /* Video Section */
 .about-wrapper iframe{
@@ -742,7 +813,6 @@ nav .social img:active{
     margin-top:-1.5%;
     margin-bottom: 2.5rem;
 }
-/* End Video Section */
 
 /* Order Section */
 #order-wrapper{
@@ -777,7 +847,6 @@ nav .social img:active{
 #placeorderbttn{
     margin-top: 3rem;
 }
-/* End Order Section */
 
 /* Newsletter Section */
 .news-wrapper{
@@ -804,13 +873,50 @@ form #email{
 form #email{
     margin-left: 1.5rem;
 }
-/* End Newsletter Section */
+
+/* footer */
+#footer {
+    height: 47rem;
 }
+
+.footer-flex-container {
+    flex-direction: column;
+    height: 40rem;
+    margin-left: 17rem;
+}
+
+#email-break, #phone-break {
+    display: block;
+}
+
+.contact-flex-container-ul li:first-child {
+    margin-left: 1rem;
+}
+
+#phone-span {
+    margin-left: 2rem;
+}
+
+.contact-flex-container-ul li:last-child {
+    margin-left: -5rem;
+}
+
+#email-span {
+    margin-left: 8rem;
+}
+
+.contact-flex-container h1 {
+    margin-bottom: 4rem;
+}
+
+#copyright {
+    margin-top: 4rem;
+}
+}
+
 /* End Tablets */
 
-
 /**************************** Mobile L ************************************/
-
 
 @media screen and (max-width:480px){
 
@@ -894,7 +1000,6 @@ nav .social {
 nav .social img:active{
     box-shadow: 3px 3px 7px  2px rgba(252, 193, 32, 0.9);
 }
-/* End navigation menu */
 
 /* Title Section */
 .title-wrapper #title-section{
@@ -916,7 +1021,6 @@ nav .social img:active{
     width: 80%;
     line-height: 220%;
 }
-/* End Title Section */
 
 /* Product Section */
 .product-wrapper{
@@ -975,7 +1079,6 @@ nav .social img:active{
     transition: 0.5s all ease;
     margin-left: 10.5rem;
 }
-/* End Product Section */
 
 /* About Section */
 .about-wrapper{
@@ -994,7 +1097,6 @@ nav .social img:active{
     margin-top: -0.5rem;
     text-align: justify;
 }
-/* End About Section */
 
 /* Video Section */
 .about-wrapper iframe{
@@ -1004,7 +1106,6 @@ nav .social img:active{
     margin-top:-1.5%;
     margin-bottom: 2.5rem;
 }
-/* End Video Section */
 
 /* Order Section */
 #order-wrapper{
@@ -1059,7 +1160,6 @@ nav .social img:active{
     transition: 0.7s all ease;
     box-shadow: 5px 5px 15px  0.5px rgb(117, 112, 112);
 }
-/* End Order Section */
 
 /* Newsletter Section */
 .news-wrapper{
@@ -1086,13 +1186,18 @@ form #email{
 form #submit{
   margin-right: 3rem;
 }
-/* End Newsletter Section */
+
+  .footer-flex-container {
+    margin-left: 9rem;
+}
+
+.contact-flex-container h1 {
+    margin-bottom: 3rem;
+}
 }
 /* End Mobile L */
 
-
 /************************* Mobile M *************************/
-
 
 @media screen and (max-width:400px){
 
@@ -1108,7 +1213,6 @@ nav #header-img{
 nav .social {
     margin-left: 31.5rem;
 }
-/* End navigation menu */
 
 .title-wrapper #title-section{
     width: 30rem;
@@ -1127,8 +1231,6 @@ nav .social {
     margin-top: -7%;
     width: 75%;
 }
-/* End Title Section */
-
 
 /* Product Section */
 .product-wrapper{
@@ -1169,7 +1271,6 @@ nav .social {
 .product-wrapper a:hover{
     margin-left: 8.5rem;
 }
-/* End Product Section */
 
 /* About Section */
 .about-wrapper{
@@ -1188,7 +1289,6 @@ nav .social {
     padding-top:6% ;
     margin-top: 0.8%;
 }
-/* End About Section */
 
 /* Video Section */
 .about-wrapper iframe{
@@ -1196,7 +1296,6 @@ nav .social {
     margin-left:1rem;
     margin-top:-1rem;
 }
-/* End Video Section */
 
 /* Order Section */
 #order-wrapper{
@@ -1245,7 +1344,6 @@ nav .social {
     margin-top: 0.8%;
     margin-left: -1rem;
 }
-/* End Order Section */
 
 /* Newsletter Section */
 .news-wrapper{
@@ -1273,16 +1371,28 @@ form #email{
 form #submit{
     margin-left: -1.2rem;
 }
-/* End Newsletter Section */
-    
-}
-/* End Mobile M */
 
+.footer-flex-container {
+    margin-left: 7rem;
+    font-size: 1.2rem;
+}
+
+.contact-flex-container h1 {
+    margin-bottom: 2rem;
+}
+
+.contact-flex-container-ul li:last-of-type {
+    margin-left: -4rem;
+}
+
+#email-span {
+    margin-left: 7rem;
+}
+}
 
 /* Mobile S */
 @media screen and (max-width:360px){
     
-
 /* navigation menu */
 nav {
     height: 4.1rem;
@@ -1295,8 +1405,6 @@ nav {
  nav .social {
      margin-left: 30.5rem;
  }
- /* End navigation menu */
-/* End navigation menu */ 
 
 .title-wrapper #title-section{
     width: 26rem;
@@ -1312,7 +1420,8 @@ nav {
 .title-wrapper p{
     margin-top: -2rem;
 }
-/* End Title Section */
+
+/* product section*/
 .product-wrapper h2{
     font-size: 2.7rem;
     margin-left: -6rem;
@@ -1351,7 +1460,6 @@ nav {
 .product-wrapper a:hover{
     margin-left: 7rem;
 }
-/* End Product Section */
 
 /* About Section */
 .about-wrapper{
@@ -1371,7 +1479,6 @@ nav {
     padding-top: 6%;
     margin-left: -1.5rem;
 }
-/* End About Section */
 
 /* Video Section */
 .about-wrapper iframe{
@@ -1381,7 +1488,6 @@ nav {
     margin-top:-1.5%;
     margin-bottom: 2.5rem;
 }
-/* End Video Section */
 
 /* Order Section */
 #order-wrapper{
@@ -1402,7 +1508,6 @@ nav {
 #placeorderbttn{
     margin-left: 35%;
 }
-/* End Order Section */
 
 /* Newsletter Section */
 .news-wrapper{
@@ -1430,7 +1535,14 @@ form #submit{
     transition: 1s all ease;
     margin-left: -4.5rem;
 }
-/* End Newsletter Section */
+
+.footer-flex-container {
+    margin-left: 6rem;
+}
+
+.contact-flex-container-ul {
+    margin-left: -2.5rem;
+}
 }
 /* End Mobile S */
 
