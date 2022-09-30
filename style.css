@@ -16,6 +16,10 @@ body{
     margin-top: 0;
 }
 
+.email-break {
+    display: none;
+}
+
 .wrapper{
     width: 100%;
     max-width: 99%;
@@ -381,6 +385,7 @@ form #email:hover{
 .footer-flex-container {
     display: flex;
     justify-content: space-around;
+    margin-left: 10rem;
 }
 
 .footer-flex-container ul {
@@ -699,7 +704,9 @@ nav .nav-link a{
 
 
 @media screen and (max-width:760px){
-
+/* .email-break {
+    display: block;
+} */
 /* navigation menu */
 nav{
     width: 98%;
@@ -924,7 +931,7 @@ form #email{
 }
 
 #copyright {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 }
 
@@ -1209,6 +1216,10 @@ form #submit{
   margin-right: 3rem;
 }
 /* End Newsletter Section */
+
+.contact-flex-container-ul {
+    margin-left: -12rem;
+  } 
 }
 /* End Mobile L */
 
@@ -1396,7 +1407,6 @@ form #submit{
     margin-left: -1.2rem;
 }
 /* End Newsletter Section */
-    
 }
 /* End Mobile M */
 
