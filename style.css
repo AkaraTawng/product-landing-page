@@ -1229,9 +1229,14 @@ form #submit{
 }
 /* End Newsletter Section */
 
-.contact-flex-container-ul {
-    margin-left: -12rem;
-  } 
+  .footer-flex-container {
+    margin-left: 9rem;
+}
+
+.contact-flex-container h1 {
+    margin-bottom: 3rem;
+}
+
 }
 /* End Mobile L */
 
