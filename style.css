@@ -460,11 +460,6 @@ form #email:hover{
 #copyright {
     font-weight: bolder;
 }
-
-
-
-
-
 /* Media Queries */
 
 /************************* hi-res *************************/
@@ -909,22 +904,28 @@ form #email{
 /* End Newsletter Section */
 
 /* footer */
+#footer {
+    height: 47rem;
+}
+
 .footer-flex-container {
     flex-direction: column;
-    height: 50rem;
+    height: 40rem;
     align-items: center;
 }
 
 .contact-flex-container h1 {
-    
+    margin-left: 15rem;
 }
 
 .contact-flex-container {
     align-items: center;
+    justify-content: flex-start;
 }
 
-
-
+#copyright {
+    margin-top: 5rem;
+}
 }
 
 /* End Tablets */
