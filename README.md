@@ -14,7 +14,7 @@
 # Features ⚙
 
 ## Site Overview 🧐
-![site overview gif]()
+![site overview gif](./gifs/overview.gif)
 
 ## Fully Responsive UI
 ![responsive ui gif](./gifs/responsive-ui.gif)
