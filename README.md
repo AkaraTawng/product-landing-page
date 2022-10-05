@@ -12,24 +12,15 @@
 ---
 
 # Features ⚙
-## Product Gallery
-![product gallery gif](./gifs/product-section.gif)
+## Fully Responsive UI
+![](./gifs/product-section.gif)
 
-## embedded Video
+## Range Sliders with Dynamic Color Fill and Custom Unit Selection
 ![embedded video gif](./gifs/embedded-video.gif)
 
-## Product Order Form
+## Animated Submit Button
 ![order form video gif](./gifs/order-form.gif)
 
-## Newsletter Sign Up Form 
-![newsletter gif](./gifs/newsletter.gif)
-
-## Fully Responsive UI
-![responsive ui gif](./gifs/responsive-ui.gif)
-
-
-## Custom Company Logo Hamburger Menu
-![hamburger menu gif](./gifs/hamburger.gif)
 ---
 
 # What I learned? 👨‍💻
