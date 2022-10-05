@@ -12,24 +12,27 @@
 ---
 
 # Features ⚙
-## Product Gallery
-![product gallery gif](./gifs/product-section.gif)
 
-## embedded Video
-![embedded video gif](./gifs/embedded-video.gif)
-
-## Product Order Form
-![order form video gif](./gifs/order-form.gif)
-
-## Newsletter Sign Up Form 
-![newsletter gif](./gifs/newsletter.gif)
+## Site Overview 🧐
+![site overview gif](./gifs/overview.gif)
 
 ## Fully Responsive UI
 ![responsive ui gif](./gifs/responsive-ui.gif)
 
+## Product Section
+![product section gif](./gifs/product-section.gif)
+
+## Embedded YouTube Video
+![embedded video gif](./gifs/embedded-video.gif)
+
+## Order Form
+![order form video gif](./gifs/order-form.gif)
+
+## Newsletter Signup Form
+![newsletter sign up form](./gifs/newsletter.gif)
 
 ## Custom Company Logo Hamburger Menu
-![hamburger menu gif](./gifs/hamburger.gif)
+![hamburger menu](./gifs/hamburger.gif)
 ---
 
 # What I learned? 👨‍💻
